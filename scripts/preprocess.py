@@ -1,18 +1,56 @@
 import argparse
+import os
 from pathlib import Path
 
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 
 
-def build_spark(app_name: str) -> SparkSession:
-    spark = (
+def configure_windows_hadoop(hadoop_home: str | None = None) -> dict[str, str]:
+    if os.name != "nt":
+        return {}
+
+    candidate = hadoop_home or os.environ.get("HADOOP_HOME")
+    default_home = Path(r"C:\hadoop")
+
+    if not candidate and default_home.exists():
+        candidate = str(default_home)
+
+    if not candidate:
+        print("Warning: HADOOP_HOME is not set. If Spark fails on Windows, set HADOOP_HOME or use --hadoop-home.")
+        return {}
+
+    hadoop_path = Path(candidate)
+    if not hadoop_path.exists():
+        print(f"Warning: Hadoop home not found at {hadoop_path}. Continuing without winutils configuration.")
+        return {}
+
+    os.environ["HADOOP_HOME"] = str(hadoop_path)
+    os.environ["hadoop.home.dir"] = str(hadoop_path)
+
+    bin_path = hadoop_path / "bin"
+    configs = {}
+
+    if bin_path.exists():
+        os.environ["PATH"] = f"{bin_path};" + os.environ.get("PATH", "")
+        configs["spark.driver.extraLibraryPath"] = str(bin_path)
+        configs["spark.executor.extraLibraryPath"] = str(bin_path)
+
+    return configs
+
+
+def build_spark(app_name: str, hadoop_home: str | None = None) -> SparkSession:
+    builder = (
         SparkSession.builder
         .master("local[*]")
         .appName(app_name)
         .config("spark.sql.ansi.enabled", "false")
-        .getOrCreate()
     )
+
+    for key, value in configure_windows_hadoop(hadoop_home).items():
+        builder = builder.config(key, value)
+
+    spark = builder.getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
     return spark
 
@@ -147,6 +185,7 @@ def standardize_attendance(df):
     )
     return df
 
+
 def build_grade_summary(grades_df):
     return (
         grades_df.groupBy("student_id", "course_id", "year", "semester")
@@ -197,9 +236,14 @@ def main():
     parser = argparse.ArgumentParser(description="Preprocess EduSpark expanded raw dataset using PySpark")
     parser.add_argument("--input-dir", default="data/raw_expanded", help="Folder containing expanded raw CSV files")
     parser.add_argument("--output-dir", default="data/cleaned", help="Folder to save cleaned parquet files")
+    parser.add_argument(
+        "--hadoop-home",
+        default=None,
+        help="Optional Hadoop home for Windows winutils setup. Defaults to HADOOP_HOME or C:\\hadoop when available.",
+    )
     args = parser.parse_args()
 
-    spark = build_spark("EduSparkPreprocessing")
+    spark = build_spark("EduSparkPreprocessing", args.hadoop_home)
 
     input_dir = Path(args.input_dir)
     output_dir = Path(args.output_dir)
