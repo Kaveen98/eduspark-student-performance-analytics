@@ -1,0 +1,2001 @@
+StudentID,FirstName,LastName,Gender,DateOfBirth,Major,GPA
+1001,Laura,Proctor,Female,1997-12-08,Physics,2.0
+1002,Michael,Wright,Female,2004-12-25,Computer Science,2.8
+1003,Martha,Jones,Male,2000-07-06,Computer Science,2.18
+1004,Laurie,Cross,Male,1993-10-08,Physics,3.76
+1005,Elizabeth,Bird,Male,1998-06-30,Biology,3.51
+1006,Sherry,Phillips,Female,2001-03-06,Computer Science,2.0
+1007,Charles,Green,Male,1993-09-26,Physics,2.79
+1008,Jessica,Stafford,Female,1996-12-15,Physics,3.07
+1009,Jennifer,Davis,Female,1998-03-10,Mathematics,2.63
+1010,Keith,Reyes,Male,1993-06-02,Computer Science,3.35
+1011,Monica,Ray,Male,1996-09-14,Computer Science,2.92
+1012,Ann,Ritter,Female,2001-05-22,Mathematics,3.55
+1013,Charles,Hunt,Female,1994-08-28,Biology,2.9
+1014,Douglas,Turner,Male,1992-08-13,Mathematics,2.68
+1015,Derek,Johnson,Male,2002-09-04,Biology,2.93
+1016,Alexander,Mcdonald,Male,2000-12-24,Computer Science,2.37
+1017,Rachel,Shaw,Male,2000-03-06,Computer Science,2.99
+1018,Timothy,Bell,Male,2004-01-29,Mathematics,2.61
+1019,Dalton,Vincent,Male,1999-11-02,Physics,3.35
+1020,Sharon,Schmidt,Male,1992-04-09,Biology,2.47
+1021,David,Porter,Female,2003-08-05,Biology,3.05
+1022,Jessica,Carter,Male,1998-06-21,Physics,3.14
+1023,Lauren,Carrillo,Female,1997-07-09,Mathematics,2.0
+1024,Sandra,Wells,Female,2003-04-10,Biology,3.57
+1025,Nicholas,Morgan,Male,1991-01-31,Computer Science,2.92
+1026,Susan,Nguyen,Male,1996-01-22,Computer Science,3.23
+1027,John,Evans,Male,1995-11-18,Mathematics,3.31
+1028,Denise,Stewart,Male,2002-03-24,Physics,3.91
+1029,Lisa,Garcia,Male,1995-07-24,Computer Science,3.23
+1030,Wesley,Reynolds,Male,1990-07-16,Computer Science,2.24
+1031,David,Roberts,Male,1993-06-19,Physics,3.93
+1032,Karen,Gates,Male,2001-01-18,Computer Science,3.04
+1033,Paul,Jones,Female,1992-03-07,Computer Science,3.5
+1034,Christine,Scott,Male,1991-12-02,Biology,2.41
+1035,Nicholas,Moon,Female,2003-02-19,Biology,3.09
+1036,James,Combs,Female,2003-03-08,Biology,3.19
+1037,Valerie,Murphy,Female,2003-02-22,Computer Science,2.73
+1038,Marie,Mccoy,Male,1991-10-29,Physics,2.92
+1039,Nicholas,Juarez,Female,2002-01-07,Physics,3.69
+1040,Timothy,Myers,Female,1992-01-01,Mathematics,2.7
+1041,Jennifer,Hernandez,Female,1999-03-14,Biology,3.12
+1042,Christopher,Ramos,Male,2004-06-07,Computer Science,2.96
+1043,Brian,Carr,Male,2001-07-02,Mathematics,3.19
+1044,Jeffrey,Osborne,Male,1991-07-18,Computer Science,3.25
+1045,Heather,Coleman,Female,1995-09-01,Computer Science,3.1
+1046,Sarah,Smith,Female,1994-01-18,Computer Science,2.85
+1047,Laura,Phillips,Male,1998-04-24,Computer Science,2.32
+1048,Sandra,Williams,Male,1993-11-20,Physics,2.82
+1049,Alan,Palmer,Female,2004-12-27,Physics,3.18
+1050,Stacy,Howard,Male,2004-08-10,Physics,3.09
+1051,Cindy,Tucker,Female,1991-02-19,Physics,3.5
+1052,Phillip,Lloyd,Male,2004-06-29,Mathematics,3.03
+1053,Robert,Burke,Male,1991-08-22,Biology,3.11
+1054,Joseph,Alvarez,Female,1990-12-12,Physics,2.68
+1055,Robert,Ellis,Female,1999-04-24,Mathematics,3.28
+1056,Meghan,Johnson,Male,1999-11-08,Physics,3.34
+1057,Christina,Daniel,Male,2003-07-08,Biology,3.13
+1058,Tanya,Walls,Male,1992-09-22,Computer Science,2.86
+1059,Kara,Martin,Female,1990-07-28,Biology,3.56
+1060,Lisa,Mayer,Female,1997-02-09,Mathematics,3.64
+1061,Joshua,Anderson,Female,1990-04-05,Biology,3.6
+1062,Amanda,Dean,Male,2003-10-31,Biology,2.51
+1063,Tiffany,Richards,Male,1990-05-31,Mathematics,3.3
+1064,Jeremy,Evans,Female,2002-02-22,Biology,2.85
+1065,Amanda,Caldwell,Male,1993-06-08,Mathematics,3.5
+1066,Jeremy,Walker,Male,2000-11-24,Mathematics,3.46
+1067,Tiffany,Schwartz,Female,2005-07-05,Mathematics,3.73
+1068,Raymond,Wright,Female,1999-11-03,Mathematics,3.12
+1069,Sara,Ayers,Male,1992-07-17,Physics,3.01
+1070,Stephen,Nelson,Male,1996-01-13,Mathematics,3.48
+1071,Jeffrey,Wilson,Male,2000-10-11,Biology,2.74
+1072,Andrea,Ward,Male,2000-08-11,Biology,3.62
+1073,Sarah,Mahoney,Male,2004-10-03,Biology,2.57
+1074,Mark,Perez,Male,1996-06-25,Physics,3.1
+1075,Holly,Allen,Male,2000-10-29,Computer Science,2.66
+1076,Sarah,Perkins,Male,1990-12-14,Physics,2.95
+1077,Daniel,Thomas,Male,1998-10-08,Biology,3.42
+1078,Isaiah,Russell,Male,1993-06-29,Biology,2.68
+1079,Matthew,Arnold,Female,1992-10-01,Physics,3.15
+1080,Aimee,Obrien,Male,1997-05-23,Computer Science,3.65
+1081,James,Butler,Male,2002-08-27,Computer Science,3.36
+1082,Crystal,Brown,Female,1998-05-30,Computer Science,3.22
+1083,Patricia,Hall,Male,1990-08-12,Biology,3.03
+1084,Sara,Wagner,Female,1992-09-23,Computer Science,3.05
+1085,Rebecca,Davis,Female,1990-03-28,Physics,3.31
+1086,Jennifer,Tran,Male,2003-03-28,Biology,2.92
+1087,David,Pearson,Male,2001-10-19,Biology,3.26
+1088,Kathy,Garcia,Male,2004-06-17,Physics,3.28
+1089,Kathryn,Banks,Female,1991-05-27,Biology,2.97
+1090,Robert,Garza,Male,2002-01-13,Physics,2.0
+1091,Jaime,Torres,Male,1994-01-09,Mathematics,2.0
+1092,Dylan,Diaz,Female,1996-01-16,Biology,3.16
+1093,Stanley,Gomez,Female,1998-07-12,Mathematics,3.26
+1094,Joshua,Yang,Male,1996-10-04,Mathematics,2.79
+1095,Daniel,Petersen,Female,2000-03-08,Biology,3.82
+1096,Olivia,Mayer,Female,1992-07-08,Mathematics,2.44
+1097,John,Trujillo,Male,2005-02-05,Biology,4.0
+1098,Tamara,Wolfe,Female,1990-12-23,Mathematics,3.15
+1099,Karen,Townsend,Female,1991-11-24,Biology,3.09
+1100,Nancy,Turner,Female,1995-06-21,Physics,3.31
+1101,Alex,Williams,Female,1995-04-01,Mathematics,2.93
+1102,Alexis,Walter,Male,2002-05-18,Physics,2.26
+1103,Norman,Li,Female,2000-08-15,Mathematics,2.56
+1104,Caroline,Miller,Male,1992-06-13,Mathematics,2.95
+1105,Rebecca,Welch,Female,1993-11-01,Mathematics,3.52
+1106,Peter,Moreno,Female,1991-06-13,Mathematics,3.5
+1107,Meagan,Higgins,Male,1999-03-19,Physics,3.01
+1108,Alexandra,Vargas,Female,1994-07-11,Computer Science,3.04
+1109,Mitchell,Morris,Female,1995-02-08,Biology,2.21
+1110,Nancy,Walters,Female,2000-02-16,Mathematics,2.55
+1111,Catherine,Welch,Female,1991-11-06,Biology,3.27
+1112,Darren,Flowers,Female,1992-09-04,Computer Science,3.47
+1113,William,Fisher,Male,1994-02-02,Computer Science,2.0
+1114,Jessica,Cohen,Female,2003-07-12,Biology,3.25
+1115,Joseph,Stevens,Female,2001-01-07,Physics,3.49
+1116,Ryan,Dunlap,Male,2003-06-16,Biology,3.54
+1117,Jessica,Key,Male,1999-06-14,Computer Science,3.47
+1118,Timothy,Pearson,Male,1994-09-12,Computer Science,3.18
+1119,Stacy,White,Female,1991-01-18,Computer Science,3.93
+1120,William,Scott,Male,2004-08-26,Mathematics,2.8
+1121,Eric,Briggs,Female,2005-10-22,Mathematics,2.58
+1122,Steven,Moore,Female,1999-10-07,Computer Science,3.62
+1123,Danielle,Morris,Female,1997-01-25,Biology,2.28
+1124,Tina,Taylor,Female,1992-10-22,Physics,3.6
+1125,Leslie,Hernandez,Male,1991-05-23,Computer Science,2.53
+1126,Robert,Mitchell,Male,1998-04-04,Computer Science,2.99
+1127,Joseph,Davis,Male,1996-03-18,Biology,2.99
+1128,Isaac,Miles,Female,1992-09-14,Biology,2.46
+1129,Edward,Murphy,Male,2000-11-17,Computer Science,2.31
+1130,Maria,Lopez,Male,1996-10-04,Biology,3.61
+1131,Amanda,Wright,Male,2005-08-11,Computer Science,2.28
+1132,Michael,Cardenas,Male,1997-10-25,Mathematics,2.74
+1133,Timothy,Colon,Female,1991-06-03,Physics,3.08
+1134,Laura,Noble,Male,1990-10-08,Biology,2.72
+1135,Christine,Padilla,Female,2001-04-15,Computer Science,2.0
+1136,David,Green,Male,2004-11-16,Computer Science,2.1
+1137,Jessica,Hunter,Female,1995-10-28,Physics,3.19
+1138,Tara,Brown,Female,1997-12-26,Mathematics,2.78
+1139,Brian,Hughes,Male,1994-12-05,Biology,2.7
+1140,Duane,Adkins,Male,1995-05-21,Computer Science,2.34
+1141,Emily,Harmon,Female,1994-01-20,Biology,3.18
+1142,Rachel,Clark,Male,1993-04-30,Mathematics,3.15
+1143,Kelli,Moore,Female,1998-04-10,Computer Science,2.24
+1144,Alexis,Horton,Female,2003-11-01,Mathematics,3.09
+1145,Bryan,Preston,Male,2003-11-29,Physics,3.06
+1146,Randall,Santiago,Female,2004-04-12,Computer Science,2.76
+1147,Michelle,Patterson,Male,2005-12-18,Mathematics,2.47
+1148,Donna,Mccoy,Female,2004-09-26,Biology,3.34
+1149,Larry,Cooper,Female,1991-02-02,Physics,2.9
+1150,Jesse,Sanders,Male,1997-01-21,Biology,2.96
+1151,Dean,Duncan,Female,1999-07-19,Physics,3.45
+1152,Cristina,Rios,Male,2004-06-10,Biology,2.9
+1153,Debra,Stephenson,Female,1999-04-09,Physics,3.02
+1154,Cindy,Stone,Male,1990-12-08,Biology,2.49
+1155,Jason,Hull,Female,1991-06-05,Biology,3.06
+1156,Sean,West,Male,1990-11-15,Biology,3.86
+1157,Amy,Gallagher,Male,1991-03-26,Biology,2.39
+1158,Kimberly,Rogers,Male,1992-06-27,Biology,2.08
+1159,Joshua,Walker,Male,1990-10-12,Physics,2.17
+1160,Donna,Chan,Male,2001-02-03,Biology,3.1
+1161,Ruben,Ayala,Female,1996-02-04,Physics,2.64
+1162,Nicole,Hunter,Female,1992-03-15,Physics,2.0
+1163,Richard,Watts,Male,2005-04-30,Computer Science,3.87
+1164,Jenna,Harding,Female,1994-11-28,Computer Science,2.86
+1165,David,Turner,Female,1990-11-25,Mathematics,2.75
+1166,Erika,Cohen,Female,1996-04-09,Mathematics,2.0
+1167,Gregory,Lawson,Male,2005-12-08,Computer Science,2.88
+1168,David,Diaz,Female,1993-06-19,Computer Science,2.05
+1169,Jodi,Duran,Female,1996-05-28,Physics,2.04
+1170,Robert,Maddox,Female,1999-10-26,Computer Science,2.73
+1171,Beth,Stevens,Male,1995-04-09,Physics,2.98
+1172,Julia,Lopez,Male,2001-06-07,Biology,3.28
+1173,Jerry,Nichols,Female,2004-03-08,Biology,3.1
+1174,Joseph,Mendoza,Female,2003-09-13,Biology,3.38
+1175,Timothy,Evans,Male,1996-08-16,Physics,4.0
+1176,James,Hoffman,Female,2005-07-29,Biology,2.0
+1177,Michael,Sampson,Female,1991-03-31,Physics,2.32
+1178,Jeffrey,Peterson,Female,1999-03-19,Biology,2.53
+1179,Adrian,Cole,Female,1995-08-25,Biology,3.45
+1180,Theresa,Roberts,Female,1997-09-19,Mathematics,2.15
+1181,Jessica,Diaz,Male,1991-08-28,Biology,2.72
+1182,Martin,Perkins,Female,2004-01-27,Computer Science,2.52
+1183,Bianca,Dawson,Male,1992-10-09,Biology,3.11
+1184,Alan,Peterson,Female,1995-08-10,Mathematics,2.3
+1185,Heather,Gonzalez,Male,2000-12-27,Computer Science,3.46
+1186,Sonia,Brown,Male,2003-06-28,Mathematics,2.56
+1187,Sarah,Wallace,Male,1992-08-15,Biology,3.16
+1188,Michael,Hall,Male,2003-02-10,Mathematics,2.0
+1189,Robert,Joyce,Male,1998-11-28,Computer Science,2.96
+1190,Anthony,Miller,Female,1994-11-09,Computer Science,2.0
+1191,Jose,Ortiz,Male,2001-08-08,Physics,4.0
+1192,Gabriel,Garcia,Female,2004-04-13,Computer Science,2.4
+1193,Tasha,Vance,Female,2004-11-09,Mathematics,2.58
+1194,Scott,Greene,Female,2003-08-22,Computer Science,2.7
+1195,Melissa,Small,Female,1996-11-20,Biology,3.56
+1196,Miguel,Wade,Male,2001-05-16,Physics,2.89
+1197,Sheri,King,Male,1997-07-24,Mathematics,3.26
+1198,Jack,Mueller,Female,1992-08-14,Biology,3.21
+1199,Jeremy,Lawrence,Female,2001-04-16,Mathematics,3.97
+1200,Ryan,Perry,Male,1991-12-04,Physics,2.43
+1201,Jason,Kane,Female,2002-07-29,Mathematics,2.14
+1202,Ashley,Patterson,Female,1997-01-06,Physics,3.1
+1203,Krystal,Mckinney,Female,2005-11-21,Biology,3.0
+1204,Debra,Singh,Female,1994-11-19,Computer Science,2.04
+1205,Deborah,Hall,Male,2005-06-26,Biology,2.4
+1206,Nicholas,Rose,Female,2004-11-14,Computer Science,2.0
+1207,Charles,Gonzalez,Male,1999-03-24,Computer Science,2.94
+1208,Bob,Gonzalez,Male,1998-02-24,Biology,3.29
+1209,Michelle,Williams,Male,2005-03-10,Mathematics,3.1
+1210,Jason,Foster,Male,1994-02-25,Computer Science,2.8
+1211,John,Duarte,Female,2004-04-24,Physics,3.71
+1212,James,Pruitt,Female,2001-07-12,Biology,3.18
+1213,April,Boyle,Male,2001-01-09,Physics,3.37
+1214,Kristen,Houston,Male,1991-08-01,Biology,3.2
+1215,Wendy,Fowler,Female,2002-05-01,Mathematics,2.0
+1216,Sean,Bryant,Female,1990-04-24,Biology,3.0
+1217,Dawn,Parks,Male,1996-10-28,Mathematics,3.86
+1218,William,Davis,Male,2001-11-23,Mathematics,2.61
+1219,Anthony,Massey,Male,1990-01-19,Physics,2.59
+1220,Tiffany,Smith,Male,2001-07-12,Biology,2.99
+1221,Charles,Baxter,Male,2001-08-04,Mathematics,3.03
+1222,Douglas,Hoffman,Female,2000-07-20,Physics,2.38
+1223,Anthony,Garcia,Female,1993-10-08,Physics,3.28
+1224,Ronald,Mathis,Female,1995-10-06,Physics,3.19
+1225,Kimberly,Wilkins,Female,2000-07-06,Biology,3.8
+1226,Ashley,Little,Male,1992-12-24,Physics,3.16
+1227,Brittany,Medina,Male,2003-09-08,Physics,3.49
+1228,Christian,Mills,Female,1999-08-23,Computer Science,2.65
+1229,April,Chandler,Male,1993-11-02,Mathematics,2.63
+1230,Barbara,Sandoval,Male,1996-03-26,Biology,2.98
+1231,William,Hall,Male,1994-07-22,Mathematics,3.08
+1232,Timothy,Payne,Female,2002-08-02,Computer Science,2.51
+1233,Sandra,Tyler,Female,2002-01-02,Computer Science,4.0
+1234,Stacie,Fox,Male,1991-01-19,Computer Science,3.36
+1235,Christine,Delgado,Female,1999-09-26,Biology,4.0
+1236,Patrick,Lara,Female,1991-04-15,Physics,2.31
+1237,Amy,Soto,Male,2003-06-12,Mathematics,2.22
+1238,James,Walker,Female,1995-03-12,Physics,2.64
+1239,Nicholas,Weaver,Female,1991-09-06,Biology,3.3
+1240,Jacqueline,Gomez,Female,1992-07-02,Computer Science,2.91
+1241,Gina,Murray,Female,1999-09-27,Mathematics,2.94
+1242,Amber,Hensley,Male,1996-11-03,Physics,2.54
+1243,Alexandria,Bailey,Female,1992-10-27,Biology,3.26
+1244,Kevin,Rush,Female,1994-11-29,Computer Science,2.67
+1245,Cody,Thomas,Male,2005-02-04,Physics,2.54
+1246,Ralph,Orozco,Male,1990-01-25,Mathematics,3.04
+1247,Cynthia,Robbins,Female,1991-01-19,Biology,3.16
+1248,Anthony,Keller,Female,1997-08-05,Mathematics,3.12
+1249,Nancy,Wallace,Female,1994-02-28,Computer Science,2.98
+1250,Tanya,Lee,Male,1996-07-03,Computer Science,2.39
+1251,Heather,Nelson,Male,1999-05-15,Physics,3.26
+1252,James,Harris,Male,2005-11-18,Physics,3.0
+1253,Douglas,Cox,Male,2000-07-30,Physics,2.63
+1254,Laura,Griffith,Female,2001-03-29,Biology,3.16
+1255,Marc,Wilkins,Male,2000-12-14,Biology,2.7
+1256,Erik,Oliver,Female,2005-04-16,Biology,2.48
+1257,Joseph,Schwartz,Female,1995-10-31,Computer Science,2.16
+1258,Devin,Richardson,Male,1992-06-14,Mathematics,2.0
+1259,Michael,Santiago,Male,2004-02-24,Computer Science,2.04
+1260,Heather,Williams,Male,1996-06-27,Computer Science,3.26
+1261,Elizabeth,Wall,Male,1993-03-06,Computer Science,2.79
+1262,Lori,Fleming,Male,1992-01-02,Computer Science,3.24
+1263,Jesse,Hall,Male,1993-09-28,Mathematics,2.81
+1264,Stephanie,Keller,Female,1996-09-05,Biology,2.18
+1265,Amber,Nielsen,Female,2005-12-04,Biology,3.24
+1266,Steven,Smith,Male,1999-04-03,Mathematics,2.99
+1267,Bobby,Nelson,Female,1998-08-21,Computer Science,3.31
+1268,Amy,Diaz,Male,2004-05-11,Physics,2.81
+1269,Javier,Campbell,Male,1999-12-22,Physics,3.17
+1270,Edward,Rose,Male,1991-11-07,Computer Science,2.66
+1271,Mark,Williams,Female,2005-06-11,Computer Science,2.91
+1272,Benjamin,Olson,Male,2003-09-09,Computer Science,2.82
+1273,Linda,Gonzalez,Male,1990-11-20,Physics,3.11
+1274,Steven,Ellison,Male,2005-04-18,Physics,2.71
+1275,Keith,Holland,Male,1999-12-14,Biology,2.0
+1276,Aaron,Garrett,Female,1995-05-29,Computer Science,2.79
+1277,Catherine,Scott,Male,1997-09-05,Computer Science,2.0
+1278,Joseph,Vargas,Male,2000-12-24,Computer Science,2.6
+1279,Lindsay,Rios,Female,1996-01-28,Computer Science,2.78
+1280,Aaron,Leon,Female,1991-01-24,Biology,2.21
+1281,Lindsay,Garcia,Female,1990-07-04,Physics,4.0
+1282,Debbie,James,Male,2002-03-30,Physics,3.0
+1283,Lynn,Nelson,Female,1990-02-21,Physics,3.76
+1284,Emily,Mitchell,Male,1999-08-16,Computer Science,2.66
+1285,Jessica,Baker,Male,1998-10-19,Mathematics,3.68
+1286,Anthony,Brock,Female,2005-04-09,Computer Science,2.58
+1287,David,Burke,Female,2001-01-14,Computer Science,2.12
+1288,Michael,Howell,Female,1998-10-08,Computer Science,2.59
+1289,Kelly,Cruz,Male,1997-04-14,Physics,2.0
+1290,Benjamin,Hamilton,Female,2004-02-14,Mathematics,2.41
+1291,Ryan,Cooper,Male,1990-06-25,Physics,3.08
+1292,Daniel,Myers,Male,1996-01-08,Physics,3.39
+1293,Joseph,Fernandez,Female,1998-07-15,Computer Science,2.66
+1294,John,Miller,Male,2001-05-15,Physics,3.87
+1295,Dale,Neal,Female,2000-09-08,Computer Science,3.01
+1296,Darryl,Anderson,Male,2005-10-04,Computer Science,3.87
+1297,Joanne,Smith,Male,2001-06-17,Biology,3.03
+1298,Andrew,Gregory,Female,1995-12-31,Computer Science,3.37
+1299,Steven,Zavala,Female,1992-11-29,Physics,2.54
+1300,Derek,Johnson,Male,1998-04-25,Mathematics,3.08
+1301,William,Adams,Male,1991-08-01,Computer Science,2.54
+1302,Sarah,Whitney,Male,1991-02-17,Computer Science,2.99
+1303,Desiree,Johnson,Male,2001-01-13,Biology,2.5
+1304,Robert,Scott,Female,1998-06-29,Physics,2.14
+1305,Peter,Jennings,Female,1998-06-04,Computer Science,3.02
+1306,Anthony,Miller,Male,1991-06-28,Mathematics,3.37
+1307,Christy,Gray,Male,1996-03-20,Mathematics,3.74
+1308,Phillip,Elliott,Female,2003-09-30,Mathematics,2.9
+1309,Sara,Stevens,Female,1990-04-29,Biology,2.54
+1310,Kayla,Holland,Female,1990-09-08,Biology,2.38
+1311,Brandi,Torres,Female,1996-01-04,Biology,2.37
+1312,Alexander,Anderson,Female,1993-09-22,Physics,2.8
+1313,Katie,Chen,Female,2001-02-12,Biology,3.01
+1314,Barbara,Anderson,Female,1997-06-30,Mathematics,2.0
+1315,Ashley,Carter,Female,2001-11-11,Mathematics,3.47
+1316,Andrew,Butler,Female,2002-09-07,Biology,3.18
+1317,Amy,Hill,Female,2003-08-17,Biology,3.48
+1318,Richard,Kim,Male,1993-07-24,Mathematics,2.3
+1319,John,Rogers,Male,1991-01-23,Computer Science,2.69
+1320,Charles,Brown,Female,2000-10-06,Biology,3.0
+1321,Megan,Larson,Male,1990-11-10,Biology,2.64
+1322,Linda,Simpson,Female,1999-06-19,Physics,2.38
+1323,Todd,Sweeney,Female,2001-05-23,Mathematics,3.42
+1324,John,Patterson,Male,1999-02-11,Biology,3.41
+1325,Sandra,Sparks,Male,2001-11-19,Mathematics,2.71
+1326,Angela,Robinson,Female,2004-04-23,Physics,2.94
+1327,Christina,Mcdonald,Female,1997-10-25,Mathematics,2.73
+1328,Alexander,Dawson,Female,2004-12-09,Computer Science,3.3
+1329,Justin,Bonilla,Female,1996-04-26,Biology,2.07
+1330,Nathan,Thompson,Female,1996-09-04,Biology,2.0
+1331,Caitlyn,Campos,Male,1994-05-06,Computer Science,3.82
+1332,Monica,Perez,Female,2000-07-21,Computer Science,2.42
+1333,Brittany,Ingram,Female,2002-10-16,Mathematics,2.49
+1334,Kelly,Wallace,Female,1998-03-15,Physics,3.07
+1335,Benjamin,Jacobson,Female,2003-08-11,Mathematics,2.61
+1336,Matthew,Johnson,Female,1996-02-04,Physics,2.73
+1337,Sandra,Goodman,Female,1999-07-09,Physics,3.79
+1338,Ana,Taylor,Female,2001-11-21,Computer Science,2.58
+1339,James,Thomas,Female,2001-03-27,Mathematics,2.93
+1340,Maria,Costa,Female,2001-11-27,Computer Science,3.21
+1341,Julie,George,Female,2004-06-13,Mathematics,2.87
+1342,Charles,James,Male,1992-03-14,Mathematics,2.75
+1343,Rebecca,Smith,Female,2005-02-22,Physics,3.02
+1344,Ivan,Cook,Male,2000-06-15,Computer Science,3.53
+1345,Jacob,Valdez,Female,1993-07-28,Computer Science,3.32
+1346,Regina,Perez,Male,2005-10-13,Mathematics,3.22
+1347,April,Smith,Male,1995-10-30,Mathematics,2.66
+1348,Michelle,Baker,Male,1997-06-11,Mathematics,3.81
+1349,Amy,Morgan,Male,1998-05-08,Biology,2.59
+1350,Maurice,Robinson,Female,1990-12-19,Biology,3.05
+1351,Elizabeth,Weaver,Male,2000-06-26,Biology,3.53
+1352,Amy,Brown,Male,1990-09-13,Physics,2.98
+1353,Stephanie,Hines,Male,2002-06-12,Mathematics,3.21
+1354,Kevin,Ramirez,Female,2000-09-29,Physics,3.66
+1355,Theresa,Howard,Female,1999-06-20,Biology,2.0
+1356,Steven,Robbins,Female,1998-10-16,Computer Science,3.16
+1357,William,Henderson,Female,2000-08-01,Mathematics,2.74
+1358,Brandon,Jones,Male,1993-03-20,Computer Science,2.66
+1359,Christopher,Mcguire,Female,1991-06-23,Physics,3.56
+1360,Cory,Edwards,Male,2000-08-02,Physics,2.12
+1361,Joel,Molina,Male,1992-11-30,Biology,4.0
+1362,Caitlin,Warner,Female,1992-05-31,Computer Science,3.5
+1363,Dana,Gray,Female,2003-01-22,Mathematics,2.69
+1364,Stacy,Gardner,Female,2000-10-02,Physics,3.21
+1365,Laurie,Gamble,Male,1991-10-21,Biology,3.56
+1366,Abigail,Thomas,Male,1999-07-07,Physics,3.41
+1367,Mark,Sanchez,Male,1996-11-21,Physics,2.87
+1368,Richard,Holloway,Female,2001-01-23,Physics,2.79
+1369,Chad,Becker,Male,1999-11-27,Computer Science,2.87
+1370,Mary,Cherry,Female,2005-07-31,Biology,2.0
+1371,Rachel,Cisneros,Female,2005-06-30,Mathematics,3.81
+1372,Krista,Hull,Female,1998-07-18,Physics,3.19
+1373,Matthew,Buckley,Male,2002-10-19,Physics,2.41
+1374,Erica,Long,Female,1999-01-10,Mathematics,3.62
+1375,Mark,Rollins,Male,2005-03-28,Computer Science,3.03
+1376,Elizabeth,Brown,Female,2002-02-13,Biology,2.99
+1377,Samantha,Jenkins,Female,2004-05-07,Mathematics,3.4
+1378,Lisa,Wallace,Male,1994-07-15,Computer Science,3.4
+1379,Amy,Carr,Female,1993-03-04,Mathematics,4.0
+1380,David,Hill,Male,2005-06-24,Biology,2.32
+1381,Melissa,Jones,Male,1990-10-25,Biology,3.37
+1382,Nicole,Blake,Female,2004-03-05,Mathematics,3.1
+1383,Natalie,West,Female,1993-07-21,Computer Science,2.72
+1384,Erin,Nichols,Female,1990-06-13,Physics,2.67
+1385,Charles,Mann,Female,1991-05-02,Biology,2.98
+1386,Walter,Crawford,Male,1991-10-28,Physics,3.5
+1387,Stephanie,Wilson,Female,1998-02-01,Biology,3.61
+1388,Daisy,Johnson,Female,1992-09-08,Computer Science,3.49
+1389,Chase,Scott,Male,2001-05-25,Computer Science,2.05
+1390,Tyler,Morales,Male,2005-02-20,Physics,2.64
+1391,Paul,Mason,Male,1990-09-02,Mathematics,2.76
+1392,Matthew,Fisher,Female,1994-12-09,Physics,3.62
+1393,Alyssa,Clay,Male,2000-09-05,Computer Science,3.0
+1394,Cheryl,Miranda,Male,1997-09-04,Physics,3.75
+1395,Michael,Osborne,Female,1994-10-25,Biology,3.57
+1396,Cassandra,Martin,Male,1996-04-11,Mathematics,2.16
+1397,Brandon,Sanford,Male,1996-08-15,Biology,3.34
+1398,Amanda,Crosby,Male,1995-03-27,Biology,2.91
+1399,Sara,Fox,Female,2000-01-12,Biology,2.68
+1400,Megan,Wilson,Female,2002-05-08,Physics,2.66
+1401,Brandi,Clarke,Male,1997-09-12,Physics,3.49
+1402,Antonio,Valentine,Male,1994-07-07,Computer Science,3.06
+1403,Jonathan,Prince,Female,1992-03-03,Biology,4.0
+1404,Amy,Pacheco,Female,2002-07-09,Computer Science,3.4
+1405,Alice,Smith,Male,2005-07-24,Biology,2.77
+1406,David,Perez,Male,1990-02-15,Mathematics,2.93
+1407,Rodney,Barber,Male,1995-06-08,Mathematics,2.67
+1408,Joel,Robinson,Male,2005-09-23,Computer Science,2.69
+1409,Kenneth,Franklin,Female,1997-09-29,Physics,3.65
+1410,Margaret,Franklin,Female,1995-12-25,Mathematics,3.46
+1411,Joyce,Jackson,Female,1991-07-07,Computer Science,3.37
+1412,Jeffrey,Daniels,Female,2000-05-29,Physics,2.83
+1413,Christina,Bolton,Male,1998-05-07,Biology,3.97
+1414,Laura,Lewis,Female,2004-02-04,Computer Science,2.09
+1415,Jessica,Drake,Male,2004-04-03,Computer Science,2.78
+1416,Ana,Bautista,Female,1993-11-21,Mathematics,2.88
+1417,Ryan,Holmes,Female,1993-12-06,Physics,2.91
+1418,Lynn,Lopez,Female,1993-02-11,Mathematics,2.56
+1419,Raymond,Rush,Female,1996-08-22,Computer Science,2.93
+1420,Ann,Walter,Male,1993-11-15,Computer Science,2.75
+1421,Robert,Freeman,Male,1999-07-27,Mathematics,4.0
+1422,Kimberly,Johnson,Female,1999-02-21,Physics,2.64
+1423,Amy,Kelley,Female,1999-04-11,Biology,2.8
+1424,Sarah,Allen,Male,1996-05-14,Biology,3.19
+1425,Michael,Palmer,Female,1999-12-03,Computer Science,3.15
+1426,Katherine,Arnold,Female,1990-04-24,Biology,2.66
+1427,Julie,Green,Male,1993-07-06,Mathematics,2.0
+1428,Sean,Buchanan,Male,1991-10-06,Computer Science,2.78
+1429,Nicole,Mclaughlin,Male,1998-08-20,Computer Science,2.0
+1430,Brandon,Lloyd,Male,1996-03-05,Computer Science,2.63
+1431,Christine,Morrison,Male,1997-02-23,Physics,3.46
+1432,Joseph,Walker,Female,2000-05-07,Mathematics,3.64
+1433,John,Wilson,Female,2004-11-28,Mathematics,3.69
+1434,Laura,Ryan,Female,1992-01-02,Biology,2.89
+1435,Scott,Petersen,Female,1999-03-21,Biology,3.04
+1436,Robert,Meyers,Female,1996-01-17,Computer Science,2.84
+1437,Christie,Peters,Female,1992-02-24,Computer Science,2.51
+1438,Meghan,Jackson,Female,2000-05-04,Physics,3.71
+1439,Bryce,Cohen,Male,2002-09-21,Biology,2.83
+1440,Michael,Ramirez,Male,1992-10-08,Physics,3.14
+1441,Billy,Thomas,Female,1996-03-17,Computer Science,3.06
+1442,Kimberly,Woodward,Male,2003-07-11,Computer Science,3.31
+1443,Daniel,Thomas,Male,1998-12-18,Computer Science,3.67
+1444,Randy,Wallace,Male,2002-01-25,Mathematics,2.6
+1445,Michael,Underwood,Female,2000-11-13,Mathematics,2.72
+1446,Amber,Guzman,Female,1998-11-01,Biology,2.66
+1447,Evelyn,Parker,Male,1990-02-26,Biology,3.08
+1448,Melissa,Moreno,Female,2002-08-09,Physics,2.81
+1449,Andrew,Lawrence,Female,2004-09-24,Biology,2.0
+1450,Jacob,Anderson,Female,1990-04-04,Mathematics,2.81
+1451,David,Jones,Male,1995-12-10,Mathematics,3.62
+1452,Brian,Brown,Female,2002-09-16,Physics,3.85
+1453,Robin,Ross,Female,2000-06-26,Computer Science,2.36
+1454,Richard,Montgomery,Male,1999-05-02,Computer Science,3.45
+1455,Clifford,Gardner,Female,1996-04-16,Physics,2.68
+1456,Tyler,Murray,Female,1997-08-22,Biology,3.06
+1457,Alyssa,Campbell,Female,2000-07-07,Mathematics,2.88
+1458,Carl,Molina,Male,2005-05-14,Biology,3.52
+1459,Matthew,Haley,Female,1995-07-24,Biology,3.72
+1460,Samantha,Duke,Female,1993-10-12,Computer Science,3.51
+1461,Jennifer,Moyer,Male,1993-11-29,Biology,3.44
+1462,Justin,Carr,Male,2002-04-02,Computer Science,2.47
+1463,Mary,Harper,Male,1993-02-03,Biology,2.75
+1464,Wendy,Williams,Male,2004-08-16,Mathematics,2.68
+1465,Teresa,Lara,Male,1992-06-08,Physics,3.61
+1466,Yolanda,Nelson,Male,1998-12-01,Mathematics,3.66
+1467,Joshua,Huff,Female,2004-02-18,Computer Science,2.15
+1468,Tristan,Martin,Male,1999-03-06,Mathematics,2.54
+1469,Calvin,Fisher,Female,1991-12-06,Physics,3.69
+1470,Cynthia,Williams,Female,1997-07-22,Computer Science,2.8
+1471,Leslie,Lowe,Male,1992-02-02,Physics,2.76
+1472,Kevin,Rice,Male,1994-08-20,Biology,2.37
+1473,Kimberly,Reyes,Female,1991-09-07,Biology,2.62
+1474,Chelsea,Bradley,Male,2002-03-06,Biology,2.22
+1475,Matthew,Jones,Male,1993-08-24,Mathematics,3.05
+1476,Elizabeth,Hart,Female,1992-10-28,Mathematics,2.55
+1477,Drew,Johnson,Female,2004-05-05,Computer Science,2.19
+1478,Angela,Abbott,Male,2005-12-02,Mathematics,3.15
+1479,Ashley,Webb,Male,1999-07-11,Biology,2.53
+1480,Ariana,Colon,Female,1994-12-27,Physics,3.24
+1481,Robert,Nichols,Male,2002-07-05,Computer Science,2.77
+1482,Elijah,Lawrence,Male,2005-10-19,Mathematics,3.92
+1483,Jay,Jackson,Male,1991-05-28,Physics,3.05
+1484,Gabriel,Bailey,Female,1991-08-01,Physics,3.17
+1485,Jeremy,Boyd,Male,1997-01-15,Physics,3.46
+1486,Matthew,Jones,Male,1999-07-15,Mathematics,3.1
+1487,Brianna,Wallace,Female,1994-12-28,Mathematics,2.85
+1488,James,Everett,Male,1994-04-05,Mathematics,2.58
+1489,Barbara,Richard,Male,1990-12-18,Biology,3.38
+1490,Alexandra,Brown,Male,1992-05-04,Physics,3.48
+1491,Joel,Chandler,Female,2002-01-31,Computer Science,3.78
+1492,Daniel,Rivera,Male,2002-05-23,Biology,2.43
+1493,Michael,Walker,Female,1998-04-29,Biology,2.63
+1494,Katrina,Cruz,Female,1998-04-09,Biology,3.46
+1495,Kristin,Cunningham,Female,2001-02-25,Physics,2.47
+1496,Eric,Sims,Male,2003-08-08,Physics,2.81
+1497,Kathryn,Holmes,Male,2000-10-19,Physics,2.07
+1498,Marilyn,Howard,Male,1994-06-27,Physics,2.0
+1499,Cassidy,Johnson,Male,2005-09-05,Computer Science,2.0
+1500,Joshua,Fisher,Female,1991-06-29,Physics,3.11
+1501,Jill,Wallace,Female,1999-05-03,Computer Science,3.45
+1502,James,Evans,Female,1996-07-26,Mathematics,2.73
+1503,Fernando,Moreno,Male,2000-06-20,Computer Science,3.19
+1504,Thomas,Hayden,Female,1994-03-18,Computer Science,3.19
+1505,Erica,Bailey,Female,1992-05-07,Biology,4.0
+1506,Eduardo,Rose,Female,1998-05-31,Biology,3.23
+1507,Angela,Parker,Male,1996-03-26,Mathematics,2.0
+1508,Ashley,White,Male,2001-03-01,Mathematics,2.21
+1509,Ralph,James,Female,1991-01-27,Computer Science,2.0
+1510,Richard,Perry,Male,2002-11-25,Physics,2.9
+1511,Patricia,Anderson,Female,1995-11-29,Mathematics,2.65
+1512,Amy,Flores,Male,1992-03-29,Physics,3.47
+1513,Shawn,Hall,Female,1991-12-28,Mathematics,2.38
+1514,Heather,Schneider,Male,2004-01-25,Biology,2.4
+1515,Erica,Castillo,Male,1990-07-08,Physics,3.56
+1516,Jennifer,Walter,Male,2005-05-31,Biology,2.0
+1517,Dominique,Burton,Female,1992-09-07,Computer Science,2.92
+1518,Jason,Duran,Male,2004-04-28,Biology,2.15
+1519,Dylan,Allen,Female,1996-06-24,Physics,3.16
+1520,Carol,Murphy,Male,2004-05-29,Mathematics,2.72
+1521,Heather,Cooper,Male,2003-07-16,Physics,4.0
+1522,Kathleen,Clark,Male,2000-06-26,Biology,3.25
+1523,Steven,Douglas,Female,1993-04-04,Biology,2.0
+1524,Patrick,Myers,Male,2000-06-24,Computer Science,3.36
+1525,Michelle,Reyes,Male,1991-11-29,Computer Science,2.73
+1526,John,Vargas,Male,2003-12-25,Computer Science,3.11
+1527,Misty,Stafford,Male,1995-12-05,Physics,3.13
+1528,Christina,Bender,Male,2001-11-20,Computer Science,2.64
+1529,Cynthia,Garcia,Male,1996-04-17,Mathematics,2.53
+1530,Steven,Henry,Male,2001-07-31,Mathematics,2.82
+1531,Alexander,Cantu,Male,1990-05-21,Mathematics,3.39
+1532,Wayne,Thompson,Female,2004-10-02,Physics,3.07
+1533,Todd,Schultz,Female,1991-12-01,Biology,2.0
+1534,Eugene,Burke,Female,2003-06-13,Computer Science,2.87
+1535,Sheri,Cooper,Female,2004-12-31,Computer Science,2.99
+1536,Dennis,Lewis,Male,1997-06-17,Physics,2.0
+1537,Jill,Brown,Male,2000-12-06,Biology,2.44
+1538,Susan,Daniels,Male,2002-03-17,Biology,4.0
+1539,Jennifer,Morris,Female,1990-07-25,Biology,2.89
+1540,Janet,Johnson,Male,2002-10-21,Computer Science,2.65
+1541,Cathy,Davis,Female,1990-06-08,Computer Science,3.11
+1542,Tyler,Gordon,Male,2001-10-24,Physics,2.27
+1543,Carla,Simon,Male,1997-10-17,Physics,2.76
+1544,Aaron,Rodriguez,Male,1996-11-15,Biology,2.0
+1545,Thomas,Gonzalez,Female,1991-12-25,Mathematics,2.92
+1546,Anthony,Gaines,Male,1992-08-18,Mathematics,2.66
+1547,Jessica,Bates,Male,2005-10-01,Computer Science,3.46
+1548,Kellie,Wang,Female,2002-08-22,Mathematics,3.42
+1549,Mario,Flowers,Female,2002-10-04,Mathematics,2.84
+1550,Jennifer,Walker,Female,1991-07-12,Mathematics,3.59
+1551,Vanessa,Sanders,Male,1994-06-13,Mathematics,2.83
+1552,Daniel,Rasmussen,Male,1997-10-13,Biology,2.68
+1553,Traci,Anderson,Male,1994-09-20,Mathematics,2.96
+1554,Richard,Holmes,Male,2004-01-26,Computer Science,2.85
+1555,Joseph,Booker,Male,2000-10-24,Physics,2.0
+1556,Tyler,Bowen,Male,1993-11-23,Computer Science,2.23
+1557,William,Johnston,Male,1996-07-09,Computer Science,3.45
+1558,Michael,Stokes,Female,1992-11-29,Biology,2.91
+1559,Daniel,Martin,Male,1997-12-10,Computer Science,2.96
+1560,Abigail,Kemp,Female,1999-12-16,Physics,2.17
+1561,Michael,Greer,Male,2000-06-30,Computer Science,2.43
+1562,Austin,Lee,Female,2005-04-16,Computer Science,2.98
+1563,Alyssa,White,Female,1998-06-06,Biology,2.54
+1564,Lisa,Wells,Male,1991-07-12,Computer Science,2.13
+1565,Bianca,Lane,Male,1995-09-17,Physics,2.48
+1566,Shelby,Compton,Female,2003-06-16,Biology,3.78
+1567,Jesse,Wells,Male,1999-05-02,Physics,2.29
+1568,Ricky,Walker,Male,2002-08-17,Physics,3.46
+1569,Jesse,Nunez,Female,1992-01-12,Physics,3.29
+1570,Scott,Chambers,Male,2003-07-17,Biology,2.69
+1571,Alisha,Willis,Male,1995-11-10,Biology,2.43
+1572,Kathleen,Anderson,Male,1998-03-14,Mathematics,3.2
+1573,Alicia,Martinez,Male,2002-01-28,Biology,3.58
+1574,Patty,Ritter,Female,1999-03-14,Mathematics,2.34
+1575,Elijah,Moreno,Male,1992-02-25,Biology,2.35
+1576,Jeremiah,Grant,Male,1991-02-05,Mathematics,2.13
+1577,Lisa,Carroll,Male,2002-09-24,Computer Science,3.09
+1578,Benjamin,Smith,Male,1995-12-31,Computer Science,3.38
+1579,Jeffrey,Lara,Male,2000-05-20,Biology,2.2
+1580,Christopher,Pineda,Female,2001-03-29,Computer Science,3.44
+1581,Susan,Robinson,Male,1993-02-23,Mathematics,2.94
+1582,Jeremiah,Reyes,Female,1992-09-30,Computer Science,2.74
+1583,Eric,Torres,Male,2001-10-05,Physics,2.66
+1584,Andrew,Tucker,Male,2003-08-24,Mathematics,2.62
+1585,Abigail,Adkins,Female,1998-03-25,Mathematics,3.17
+1586,Brandon,Barber,Male,1993-08-20,Mathematics,2.7
+1587,Terri,Hale,Male,2002-10-14,Physics,3.71
+1588,Tyler,Briggs,Female,1992-09-27,Computer Science,3.75
+1589,Amy,Ayala,Male,1991-03-14,Computer Science,3.82
+1590,Nathan,Beck,Female,2003-07-22,Mathematics,2.31
+1591,Lisa,Schmitt,Female,2001-08-06,Biology,2.9
+1592,Alexis,Foster,Male,1999-04-17,Computer Science,3.37
+1593,Jennifer,Powell,Male,1990-05-01,Computer Science,2.4
+1594,Nicole,Hicks,Female,2002-02-22,Computer Science,3.24
+1595,Gary,Sullivan,Male,2004-06-20,Computer Science,3.06
+1596,Hannah,Welch,Male,1990-06-23,Biology,3.53
+1597,Marc,Perez,Female,2001-12-19,Physics,4.0
+1598,Lori,Taylor,Female,1995-01-27,Mathematics,3.32
+1599,Christopher,Torres,Female,1992-11-29,Computer Science,2.47
+1600,William,Mullins,Male,2005-08-19,Biology,3.22
+1601,Andrew,Barber,Female,2002-03-13,Mathematics,3.88
+1602,Jamie,Mcgrath,Male,2005-03-18,Physics,3.7
+1603,Christopher,Ramirez,Female,2002-07-15,Biology,3.19
+1604,Gina,Choi,Female,2005-07-07,Mathematics,2.96
+1605,Ryan,Jackson,Male,1991-12-11,Physics,3.19
+1606,Rhonda,Gibson,Male,1995-03-22,Physics,2.0
+1607,Amanda,Oliver,Female,2004-08-12,Computer Science,2.6
+1608,Robert,Johnson,Female,1995-12-06,Mathematics,3.14
+1609,Jennifer,Garcia,Female,1990-04-23,Biology,2.81
+1610,Amber,Moreno,Female,1998-05-25,Biology,2.7
+1611,Wendy,Johnson,Female,1999-02-25,Computer Science,3.09
+1612,William,Miller,Female,2000-02-06,Computer Science,2.0
+1613,Patrick,Page,Female,1996-05-06,Biology,2.36
+1614,Joseph,Collins,Female,1997-12-01,Biology,2.57
+1615,Megan,Reed,Male,2000-02-24,Computer Science,3.23
+1616,Julian,Walter,Female,2003-06-04,Physics,3.99
+1617,Patty,Fry,Male,1999-12-22,Mathematics,2.97
+1618,Alexis,Wood,Female,2001-07-09,Computer Science,3.53
+1619,Ryan,Owens,Male,1996-06-21,Physics,2.36
+1620,Shane,Reyes,Male,2004-08-07,Physics,3.55
+1621,David,Gonzalez,Male,1994-01-14,Biology,2.43
+1622,Timothy,Buchanan,Male,1994-10-30,Mathematics,3.09
+1623,Thomas,Lawson,Female,2005-03-29,Computer Science,3.22
+1624,Julia,Valenzuela,Female,2004-01-24,Physics,2.0
+1625,Christopher,Smith,Female,1997-09-08,Computer Science,3.5
+1626,Timothy,Hicks,Female,1993-06-29,Computer Science,3.23
+1627,Kristen,Douglas,Male,1998-08-11,Mathematics,2.18
+1628,Eric,Watkins,Female,1990-10-18,Computer Science,2.22
+1629,Bruce,Taylor,Female,1996-07-16,Physics,2.08
+1630,David,Wood,Male,2004-04-02,Computer Science,3.23
+1631,Elizabeth,Gonzalez,Female,2000-08-05,Mathematics,2.86
+1632,Wanda,Stein,Female,1998-11-23,Computer Science,3.73
+1633,Andrew,Huff,Male,2000-10-30,Physics,3.6
+1634,Angela,Espinoza,Female,1997-03-07,Physics,3.99
+1635,Peter,Hodges,Female,1997-09-29,Physics,3.37
+1636,Russell,Vargas,Female,1999-01-09,Mathematics,3.35
+1637,Manuel,Werner,Male,2000-06-20,Biology,4.0
+1638,Sheryl,Jones,Male,1991-03-13,Computer Science,3.15
+1639,Michelle,Garcia,Female,1993-02-18,Mathematics,3.0
+1640,Connor,Eaton,Female,2000-01-02,Biology,2.44
+1641,Andrew,Kelley,Female,1992-11-14,Biology,2.29
+1642,Ronald,Fox,Male,1994-08-30,Biology,3.63
+1643,Laura,Callahan,Female,1991-08-30,Biology,2.0
+1644,Jeffrey,Thompson,Female,1992-11-20,Biology,4.0
+1645,Teresa,Short,Female,1993-04-27,Mathematics,3.01
+1646,Melissa,Jones,Male,1993-04-13,Biology,2.68
+1647,Julia,Bradley,Male,2001-09-08,Mathematics,2.45
+1648,Michael,Orr,Male,2001-06-15,Mathematics,3.15
+1649,Garrett,Hale,Female,2000-01-10,Computer Science,3.36
+1650,Jackson,Rivas,Male,2001-06-26,Biology,3.36
+1651,Nicholas,Stewart,Female,1990-02-27,Mathematics,3.57
+1652,James,Garcia,Male,2002-08-27,Mathematics,2.66
+1653,Dawn,Nguyen,Male,1994-06-12,Computer Science,3.12
+1654,Todd,Murphy,Male,1991-12-15,Biology,2.27
+1655,Diamond,Logan,Male,1993-05-26,Biology,3.22
+1656,Savannah,Mathis,Female,1997-11-11,Biology,2.27
+1657,Michael,Aguirre,Female,2002-12-15,Computer Science,2.94
+1658,Antonio,Dodson,Male,2001-12-13,Physics,3.34
+1659,Eddie,Patton,Male,1992-09-17,Physics,2.56
+1660,Tracy,Gill,Female,2003-07-09,Physics,2.94
+1661,Charles,Mcguire,Male,1998-01-06,Biology,3.27
+1662,Michael,Stewart,Female,1992-12-16,Biology,3.12
+1663,Jack,Adams,Female,1991-03-05,Mathematics,3.34
+1664,Jonathan,Colon,Female,1999-12-03,Biology,2.94
+1665,Sean,Phillips,Female,2005-04-19,Biology,2.72
+1666,Heather,Cannon,Male,2001-10-03,Mathematics,3.25
+1667,Hannah,Fisher,Female,1997-07-18,Biology,3.83
+1668,Alexis,Lewis,Male,2000-02-24,Computer Science,2.71
+1669,Christopher,Torres,Male,1990-12-30,Computer Science,2.77
+1670,Barbara,Rodriguez,Male,1998-07-26,Computer Science,2.55
+1671,Adam,Malone,Male,1992-10-07,Physics,3.85
+1672,James,Jones,Female,1998-10-20,Mathematics,3.12
+1673,Deborah,Mayer,Male,1990-05-19,Mathematics,2.0
+1674,Brandon,Walsh,Female,2003-12-27,Physics,2.61
+1675,Brianna,Dyer,Female,1999-02-19,Physics,2.89
+1676,Christopher,Carr,Male,1999-03-22,Biology,3.01
+1677,Brian,Villegas,Male,1995-07-05,Biology,2.54
+1678,Alyssa,Moreno,Male,1999-08-31,Physics,3.56
+1679,Lori,Robinson,Male,2005-08-08,Physics,3.48
+1680,Ashley,Wilson,Female,2003-06-06,Physics,2.17
+1681,Paul,Johnston,Male,2002-06-15,Physics,3.65
+1682,Laura,Bowen,Female,1997-04-08,Physics,2.93
+1683,Erin,Whitehead,Female,1997-07-23,Computer Science,3.06
+1684,Sophia,Gay,Female,2004-08-06,Biology,4.0
+1685,Erin,Sanchez,Male,1999-07-10,Computer Science,2.54
+1686,Holly,Hutchinson,Female,1990-06-20,Physics,2.92
+1687,Sarah,Collins,Male,1994-07-20,Physics,3.62
+1688,Amanda,Buchanan,Male,1998-08-20,Mathematics,2.51
+1689,Julie,Glenn,Female,2001-02-26,Computer Science,2.0
+1690,Dawn,Ortiz,Male,1999-11-14,Computer Science,3.52
+1691,Tony,Becker,Female,1997-09-28,Computer Science,2.48
+1692,Richard,Franklin,Male,1996-07-11,Physics,3.19
+1693,Scott,Farmer,Female,2005-03-26,Physics,3.59
+1694,Christy,Melton,Male,1991-11-30,Mathematics,3.77
+1695,Austin,Campbell,Female,2004-06-10,Physics,2.14
+1696,Nathaniel,Hanson,Female,1998-12-10,Physics,2.58
+1697,Rebecca,Schmidt,Male,2004-04-06,Computer Science,2.11
+1698,Derek,Garza,Male,1998-09-20,Computer Science,3.49
+1699,Beth,Jones,Female,2003-06-09,Biology,2.95
+1700,Stephanie,Wolfe,Male,1997-03-19,Biology,2.76
+1701,Teresa,Smith,Female,2003-05-24,Mathematics,3.59
+1702,Sierra,Kane,Female,2003-10-28,Computer Science,3.24
+1703,Tammy,James,Male,2001-02-19,Physics,2.5
+1704,Debra,Hess,Male,2004-06-15,Computer Science,3.1
+1705,William,Jensen,Male,1997-10-08,Computer Science,2.25
+1706,Kristina,Garcia,Male,1998-10-21,Physics,2.65
+1707,Laurie,Cobb,Male,1991-04-25,Computer Science,3.42
+1708,Martha,Black,Female,1998-03-25,Biology,3.2
+1709,Michael,Castillo,Female,1998-02-11,Physics,2.84
+1710,Amanda,Davis,Female,2001-05-04,Biology,3.1
+1711,Nicholas,Barnett,Female,1996-07-05,Mathematics,2.0
+1712,Terri,Rodriguez,Female,2003-12-14,Biology,2.1
+1713,Shannon,Burton,Female,1990-12-09,Computer Science,2.86
+1714,Lori,Sims,Female,2001-09-24,Biology,3.54
+1715,Amanda,Kemp,Male,1994-06-06,Physics,3.32
+1716,Richard,Ward,Male,2004-02-21,Physics,2.35
+1717,John,Bowman,Male,1996-06-09,Mathematics,4.0
+1718,Michael,Montoya,Female,1992-10-10,Biology,3.58
+1719,Miranda,Reyes,Female,1999-03-23,Computer Science,2.74
+1720,Sylvia,Figueroa,Female,2002-09-11,Physics,2.9
+1721,Ronald,Anderson,Female,1996-10-07,Mathematics,3.35
+1722,Christine,Woodward,Male,2000-06-19,Biology,3.08
+1723,Lori,Garza,Male,1998-12-17,Mathematics,3.07
+1724,Danielle,Cook,Male,1993-12-27,Computer Science,3.08
+1725,Margaret,Morgan,Female,1999-09-08,Computer Science,3.56
+1726,Jonathan,Holloway,Female,2002-10-14,Computer Science,3.22
+1727,Edgar,Poole,Male,1993-12-30,Physics,3.94
+1728,Alicia,French,Female,1991-03-21,Physics,3.63
+1729,Evelyn,Hernandez,Male,1996-06-14,Computer Science,2.0
+1730,Rebecca,Davis,Male,1990-08-14,Mathematics,2.84
+1731,Carrie,Kelly,Male,2002-07-31,Computer Science,3.74
+1732,Phillip,Cherry,Female,1993-09-12,Physics,2.84
+1733,Brandon,Hudson,Male,2005-10-13,Mathematics,4.0
+1734,Curtis,Booker,Male,2003-12-02,Computer Science,3.36
+1735,Isaac,Lawrence,Male,2005-05-09,Mathematics,3.19
+1736,Justin,Burton,Male,2005-04-04,Physics,3.48
+1737,Douglas,Carter,Female,1994-07-03,Mathematics,3.59
+1738,Andrea,Allen,Female,1994-04-22,Computer Science,2.78
+1739,Justin,Harris,Male,2000-06-22,Computer Science,3.39
+1740,Mary,Cunningham,Male,2004-10-16,Biology,2.38
+1741,James,Watson,Male,1990-04-16,Physics,3.57
+1742,Benjamin,Jensen,Female,2003-11-18,Physics,3.81
+1743,Sabrina,Moss,Male,2005-03-01,Physics,2.0
+1744,Todd,Santiago,Female,1997-12-10,Computer Science,3.23
+1745,Robin,Johnson,Male,2002-01-20,Biology,2.85
+1746,Sabrina,Smith,Female,1993-11-13,Computer Science,3.26
+1747,Eric,Watson,Female,1993-11-01,Biology,3.06
+1748,Brittany,Young,Male,2000-01-04,Biology,3.16
+1749,Frances,Carpenter,Female,1991-03-14,Computer Science,2.27
+1750,Theresa,Leach,Female,2000-07-31,Biology,2.62
+1751,Paul,Mann,Male,2002-02-02,Mathematics,3.1
+1752,Samantha,Ball,Male,1992-07-16,Physics,3.67
+1753,Jessica,Hill,Female,2001-02-08,Biology,3.34
+1754,Bryan,Woods,Male,1993-01-02,Mathematics,3.52
+1755,Tommy,Peterson,Male,1998-11-01,Biology,2.31
+1756,Julie,Cooper,Female,2002-08-31,Computer Science,2.18
+1757,Tiffany,Kelly,Male,1999-09-29,Biology,3.16
+1758,Andrea,Tyler,Male,2005-10-25,Computer Science,3.24
+1759,Brianna,Gonzalez,Male,2003-04-25,Mathematics,3.66
+1760,Stacy,Robertson,Male,1998-08-17,Computer Science,3.84
+1761,Kevin,Williams,Male,1997-06-07,Computer Science,2.98
+1762,Gavin,Cuevas,Female,1996-09-27,Biology,2.61
+1763,David,Perez,Male,2000-12-18,Mathematics,2.79
+1764,Rebecca,Peters,Male,1990-07-27,Biology,3.33
+1765,Jasmine,Baker,Female,1997-10-20,Computer Science,2.87
+1766,Samantha,Bowers,Female,2002-01-05,Physics,2.44
+1767,Natalie,Acosta,Female,1999-12-05,Biology,3.53
+1768,Stephanie,Hale,Female,1994-03-01,Mathematics,3.4
+1769,Charlene,Singh,Female,1991-12-03,Physics,3.21
+1770,Jimmy,Marshall,Female,1990-03-31,Mathematics,3.1
+1771,Brittany,Ashley,Male,1990-01-17,Computer Science,2.9
+1772,Kathryn,Wells,Female,1998-11-09,Biology,2.89
+1773,Ray,Brady,Male,2000-01-07,Physics,2.0
+1774,David,Robinson,Female,2001-11-22,Physics,2.5
+1775,Blake,Perkins,Male,1996-09-28,Physics,2.84
+1776,Jennifer,Turner,Male,1991-08-20,Biology,3.33
+1777,Emily,Hart,Female,1997-08-22,Physics,2.9
+1778,Nicole,Montgomery,Female,2001-11-24,Mathematics,3.59
+1779,Bryan,Jones,Female,1991-09-04,Physics,3.44
+1780,Gail,Franklin,Female,2005-11-26,Mathematics,3.33
+1781,Deanna,Sanchez,Female,2000-11-25,Biology,3.61
+1782,Stacy,Anderson,Female,1992-06-29,Biology,2.19
+1783,Calvin,Clark,Male,2003-02-22,Physics,3.27
+1784,Jonathan,Montgomery,Female,2004-07-27,Computer Science,3.1
+1785,Lisa,Hill,Male,1995-05-31,Mathematics,2.54
+1786,Tara,Robertson,Male,1991-11-14,Mathematics,3.42
+1787,Daniel,Pittman,Male,1993-12-04,Biology,3.51
+1788,Danielle,Ramos,Female,1996-02-10,Biology,3.73
+1789,Lisa,Ayala,Male,1991-08-17,Computer Science,2.09
+1790,Kimberly,Castro,Male,2004-12-27,Physics,4.0
+1791,Ashlee,Stone,Male,1993-03-31,Mathematics,2.65
+1792,Daniel,Martinez,Male,1994-06-07,Biology,3.9
+1793,Catherine,Clarke,Male,1993-10-02,Physics,3.4
+1794,Christine,Morton,Male,2004-11-27,Biology,3.01
+1795,Tamara,Holland,Male,1995-04-11,Computer Science,2.55
+1796,Brent,Huynh,Female,2003-02-09,Computer Science,3.19
+1797,Stephanie,Walters,Male,2002-11-15,Physics,2.94
+1798,Angela,Ferguson,Male,2004-07-02,Computer Science,3.18
+1799,Kenneth,Gomez,Male,1998-07-23,Biology,3.19
+1800,Lisa,Ortega,Male,1999-08-19,Physics,2.37
+1801,Raymond,Hammond,Female,1995-02-16,Biology,2.88
+1802,Thomas,Williams,Male,1995-10-25,Mathematics,2.82
+1803,Kyle,Ortiz,Male,2000-06-23,Computer Science,2.0
+1804,Richard,Kelly,Female,1996-10-07,Mathematics,2.95
+1805,Christian,Rush,Female,2001-03-17,Biology,2.16
+1806,Stephanie,Kent,Female,2005-08-01,Computer Science,3.0
+1807,Todd,Rogers,Female,1994-06-19,Computer Science,4.0
+1808,Brenda,Buckley,Male,2000-01-14,Computer Science,2.0
+1809,Frank,Rodriguez,Female,1990-01-30,Biology,3.11
+1810,David,Ramsey,Female,1991-12-03,Biology,2.0
+1811,Courtney,Carrillo,Female,1998-01-27,Computer Science,2.36
+1812,Teresa,Collins,Male,1991-07-18,Biology,2.98
+1813,Sarah,Butler,Female,2003-06-19,Physics,2.72
+1814,Shelly,Buchanan,Male,1996-08-10,Biology,3.95
+1815,Erin,Higgins,Male,1993-02-23,Biology,2.33
+1816,Jennifer,Medina,Female,1990-02-12,Computer Science,3.07
+1817,Danielle,Campos,Male,2003-04-02,Physics,4.0
+1818,Steve,Dougherty,Female,1997-02-07,Mathematics,3.21
+1819,Sean,Carlson,Male,1994-10-10,Mathematics,3.48
+1820,Laura,Farley,Female,2002-03-04,Biology,2.55
+1821,Jason,Taylor,Female,1994-01-20,Physics,3.1
+1822,Katherine,Henderson,Male,1991-12-15,Physics,3.22
+1823,Shannon,Norris,Male,1995-07-19,Mathematics,3.24
+1824,David,Haynes,Female,2001-06-26,Mathematics,2.57
+1825,Jennifer,Reynolds,Female,2005-07-07,Computer Science,2.25
+1826,Nicholas,Terry,Female,1996-05-02,Biology,3.91
+1827,Bradley,Patterson,Male,2004-01-23,Biology,3.2
+1828,Justin,Smith,Male,1994-07-12,Biology,3.26
+1829,Kimberly,Brown,Male,1991-01-23,Physics,3.79
+1830,Cindy,Payne,Male,1996-06-20,Mathematics,3.47
+1831,Jonathon,Garcia,Male,1991-10-07,Mathematics,3.58
+1832,Seth,Diaz,Male,1998-10-15,Biology,3.03
+1833,David,Cannon,Female,1993-04-07,Physics,2.98
+1834,Melanie,Garner,Male,2000-08-27,Physics,3.8
+1835,William,Costa,Female,1994-08-30,Biology,2.25
+1836,Joshua,Valencia,Male,1994-09-05,Biology,2.44
+1837,Jason,Martin,Male,2002-08-07,Physics,2.79
+1838,Debra,Wallace,Male,1992-04-04,Physics,3.64
+1839,Sharon,Jones,Male,2003-12-30,Biology,2.88
+1840,Kevin,Riley,Male,1991-10-17,Computer Science,2.95
+1841,Cheryl,Smith,Female,1998-09-04,Physics,3.3
+1842,Brian,Greer,Female,1992-09-23,Mathematics,2.79
+1843,Jeffery,Sullivan,Female,1994-02-09,Physics,2.5
+1844,Mary,Austin,Female,1999-07-30,Computer Science,3.12
+1845,Caleb,Jackson,Male,1991-01-21,Computer Science,2.97
+1846,John,Chang,Female,1996-05-16,Computer Science,3.56
+1847,Lisa,Summers,Female,1996-06-11,Computer Science,3.42
+1848,Lori,Atkins,Female,1995-11-04,Biology,2.4
+1849,Dustin,Harrison,Female,1998-08-24,Biology,2.42
+1850,Nicholas,Hunter,Female,1997-09-10,Biology,2.41
+1851,Marcus,Brown,Male,1997-05-24,Biology,2.21
+1852,Holly,Sanchez,Female,1991-09-24,Physics,3.28
+1853,Kimberly,Lewis,Male,2003-07-28,Computer Science,3.53
+1854,Gregory,Zuniga,Female,1992-06-21,Computer Science,2.12
+1855,Rhonda,Stone,Male,2000-09-18,Biology,3.99
+1856,Melissa,Jones,Female,1997-11-08,Mathematics,2.0
+1857,Christine,Pruitt,Female,2003-10-30,Biology,2.52
+1858,Matthew,Garza,Male,1993-02-08,Biology,3.35
+1859,Michelle,Lowe,Female,1998-07-17,Computer Science,2.06
+1860,Shawn,Gutierrez,Male,1994-05-26,Computer Science,2.47
+1861,Stephanie,Scott,Female,1991-06-17,Computer Science,2.9
+1862,Wesley,Castillo,Female,1992-09-30,Biology,3.1
+1863,Eddie,Carpenter,Female,1991-05-09,Mathematics,3.18
+1864,Matthew,Lucas,Female,2000-07-28,Biology,3.45
+1865,Kyle,Ross,Female,1991-01-30,Biology,2.48
+1866,Shannon,Powell,Female,2002-01-01,Computer Science,3.27
+1867,Daisy,Padilla,Female,1998-12-21,Mathematics,2.27
+1868,Anne,Lang,Female,2005-07-04,Biology,3.28
+1869,Helen,Mccoy,Female,2002-06-23,Computer Science,2.94
+1870,Linda,Gonzalez,Female,1998-03-21,Biology,3.08
+1871,Ryan,Howard,Male,1997-03-18,Physics,2.75
+1872,Jennifer,Garcia,Female,1992-07-13,Mathematics,2.0
+1873,Willie,Patel,Female,2005-12-05,Biology,3.93
+1874,Lisa,Moreno,Female,2004-12-03,Computer Science,2.94
+1875,Dwayne,Jones,Female,2005-06-17,Mathematics,2.71
+1876,James,Bryant,Male,2003-07-30,Physics,3.29
+1877,Benjamin,Melendez,Male,1992-05-19,Computer Science,2.79
+1878,Tara,Neal,Female,2001-05-01,Computer Science,3.05
+1879,Russell,Adams,Male,2002-03-19,Mathematics,2.0
+1880,Spencer,Cook,Female,2002-01-17,Physics,2.74
+1881,Jennifer,Carroll,Female,2001-10-09,Computer Science,3.44
+1882,Blake,Lopez,Female,2003-03-25,Computer Science,3.44
+1883,Francis,Thompson,Female,1997-03-01,Computer Science,3.13
+1884,Jennifer,Kane,Female,1994-03-27,Computer Science,2.9
+1885,Denise,Wolf,Male,2001-01-02,Biology,2.88
+1886,Stacey,Owens,Male,1990-10-01,Biology,3.39
+1887,Felicia,Green,Female,2001-06-19,Physics,2.8
+1888,Ashley,Lopez,Female,1997-04-26,Mathematics,2.54
+1889,Amy,Mckee,Female,1993-04-20,Computer Science,3.28
+1890,Tiffany,Williamson,Male,1990-02-08,Biology,2.49
+1891,Jennifer,Wagner,Male,1993-05-06,Biology,3.52
+1892,John,Simmons,Female,1992-01-07,Computer Science,3.71
+1893,Wendy,Casey,Male,2000-03-01,Mathematics,4.0
+1894,Elizabeth,Clark,Male,2000-04-20,Physics,3.38
+1895,Mary,Lin,Female,1994-01-26,Computer Science,2.65
+1896,Gabriel,Flores,Male,1999-09-13,Physics,2.57
+1897,Adam,Ellis,Male,1993-04-26,Physics,2.41
+1898,Jesse,Garner,Female,1991-12-09,Mathematics,3.61
+1899,Yolanda,Rowe,Male,2004-03-18,Computer Science,2.53
+1900,Nicole,Miles,Male,1993-04-16,Mathematics,2.0
+1901,Shane,Cook,Female,1991-11-01,Biology,2.52
+1902,Laura,Jones,Female,2001-01-26,Biology,2.21
+1903,Rose,Johnson,Female,1991-07-05,Physics,2.97
+1904,Tammy,Jones,Female,2000-05-11,Mathematics,2.9
+1905,Laura,Guerrero,Female,1990-01-24,Physics,2.3
+1906,Jessica,Williams,Male,2000-01-19,Physics,3.29
+1907,Allen,Russell,Male,1992-10-28,Physics,2.38
+1908,Danielle,Holland,Female,2002-08-04,Physics,3.75
+1909,Monica,Wilson,Female,1993-06-26,Physics,3.11
+1910,Cynthia,Maxwell,Male,1991-12-16,Computer Science,3.16
+1911,Arthur,Pacheco,Female,1990-02-17,Biology,2.3
+1912,Jacqueline,Gray,Male,1992-04-27,Physics,2.59
+1913,Lisa,Quinn,Male,1997-09-20,Mathematics,2.84
+1914,Steven,Rocha,Female,1994-03-26,Physics,2.86
+1915,Ashley,Clark,Female,1990-07-16,Mathematics,2.89
+1916,Maria,Roach,Female,2002-06-02,Computer Science,2.41
+1917,Matthew,Gaines,Male,1994-12-09,Mathematics,2.0
+1918,Stephanie,Pearson,Female,1998-01-06,Biology,3.32
+1919,Katherine,Parks,Female,1991-06-22,Computer Science,2.52
+1920,Timothy,Hayes,Male,2001-08-04,Biology,2.0
+1921,Steven,Warner,Male,1993-04-15,Mathematics,2.5
+1922,Jessica,Jones,Female,2000-05-07,Biology,3.16
+1923,Colleen,Cuevas,Female,1997-05-03,Mathematics,3.81
+1924,Eric,Wells,Female,1996-05-09,Physics,3.36
+1925,Tanya,Hogan,Male,1996-05-24,Mathematics,2.73
+1926,Deborah,Turner,Male,1996-03-01,Physics,2.61
+1927,Jorge,Castro,Female,1997-11-05,Physics,2.58
+1928,Robert,Norman,Female,2004-10-17,Mathematics,3.33
+1929,Mikayla,Crane,Male,2001-10-25,Biology,3.36
+1930,Jack,Jackson,Male,2003-12-01,Physics,3.24
+1931,Stephanie,Miller,Female,2003-11-08,Physics,3.42
+1932,Peter,Thomas,Male,1999-12-29,Biology,3.33
+1933,Wendy,Walters,Male,1994-09-02,Computer Science,2.0
+1934,Steven,Johnson,Female,1992-11-12,Computer Science,2.9
+1935,Nichole,Robertson,Male,1994-07-11,Biology,3.99
+1936,Steven,Oliver,Female,1990-08-17,Computer Science,2.83
+1937,Morgan,Sullivan,Male,1992-12-25,Physics,2.44
+1938,Matthew,Bridges,Male,2004-11-26,Mathematics,2.72
+1939,David,Ortiz,Female,1999-12-12,Physics,3.5
+1940,Rachel,Gardner,Female,1990-01-31,Mathematics,3.84
+1941,Joshua,Oneill,Male,2001-05-09,Physics,2.2
+1942,Brittany,Lawson,Male,1992-04-06,Biology,2.62
+1943,Mary,White,Male,1991-06-30,Mathematics,2.59
+1944,Erin,Johnson,Male,1999-11-11,Physics,2.99
+1945,Misty,Gardner,Male,2001-09-23,Biology,2.96
+1946,Sarah,West,Male,1995-12-31,Mathematics,3.36
+1947,Alexandra,Colon,Female,2002-12-27,Computer Science,2.83
+1948,Christopher,Nguyen,Male,2004-07-31,Mathematics,4.0
+1949,Charles,Thomas,Male,1993-08-04,Computer Science,2.98
+1950,Brittany,Nelson,Female,2004-01-14,Physics,2.5
+1951,Christopher,Jones,Female,2001-11-12,Biology,3.43
+1952,Brandon,Cooper,Female,1993-08-20,Biology,2.0
+1953,Michelle,Willis,Female,1998-10-10,Physics,2.15
+1954,Jennifer,Martin,Male,1991-09-23,Computer Science,3.67
+1955,Phillip,Garcia,Female,1996-08-12,Biology,2.0
+1956,Jonathan,Wilson,Male,2005-06-07,Biology,3.71
+1957,Thomas,Weaver,Male,1990-08-27,Computer Science,3.5
+1958,Christopher,Lucas,Male,2002-03-02,Mathematics,3.02
+1959,Tony,Hernandez,Female,1991-03-19,Computer Science,2.56
+1960,Tiffany,Smith,Male,2005-08-09,Mathematics,3.02
+1961,Rebecca,Solis,Male,1998-12-16,Mathematics,3.6
+1962,Katelyn,Jones,Female,2001-08-23,Mathematics,2.8
+1963,Daniel,Wong,Female,1997-10-05,Mathematics,3.67
+1964,Kelly,Payne,Male,2001-07-08,Computer Science,2.59
+1965,John,Ray,Male,1990-11-01,Mathematics,2.81
+1966,David,Juarez,Female,1993-04-20,Physics,3.7
+1967,Amber,Johns,Male,2003-04-09,Computer Science,3.34
+1968,Emily,Norris,Male,2001-01-28,Biology,2.92
+1969,Edward,Haney,Female,2001-11-26,Biology,3.89
+1970,Lauren,Pratt,Female,1990-03-04,Physics,2.03
+1971,Stacey,Franklin,Male,1994-04-09,Physics,2.92
+1972,Heather,Harper,Male,1996-05-16,Biology,2.78
+1973,Meagan,Fritz,Male,1996-10-19,Biology,3.25
+1974,Allison,Bell,Male,1999-10-28,Computer Science,3.04
+1975,Joshua,Stone,Female,1991-10-13,Computer Science,2.5
+1976,Anita,Young,Female,2003-09-08,Mathematics,2.38
+1977,Kaitlin,Berry,Male,2000-11-03,Computer Science,3.33
+1978,Tiffany,Petersen,Female,1998-03-28,Physics,2.43
+1979,Sherry,Johnson,Female,1990-04-02,Physics,3.83
+1980,Carly,Kramer,Female,2000-03-23,Biology,3.25
+1981,Philip,Smith,Male,2003-10-25,Mathematics,2.0
+1982,David,Morris,Female,1991-09-01,Mathematics,3.44
+1983,Kimberly,Cooper,Female,2000-05-15,Mathematics,3.5
+1984,Joshua,Pineda,Male,1997-11-23,Biology,2.3
+1985,Michael,Crawford,Female,1992-01-30,Physics,2.59
+1986,Robert,Smith,Male,1993-05-02,Physics,3.07
+1987,Heidi,Lopez,Male,1998-02-11,Physics,2.76
+1988,Michele,Adams,Male,1992-09-05,Mathematics,2.37
+1989,Joseph,Young,Male,1998-03-26,Biology,3.12
+1990,Adam,Smith,Male,2003-07-23,Mathematics,2.17
+1991,Kevin,Marshall,Female,1991-08-13,Physics,3.94
+1992,Bruce,Flores,Male,2003-02-17,Mathematics,2.27
+1993,Jennifer,Herrera,Male,2005-03-15,Biology,2.82
+1994,Christopher,Woodard,Male,1991-12-19,Biology,2.69
+1995,Anna,Ryan,Female,1994-11-11,Computer Science,2.41
+1996,Lisa,Chavez,Female,1990-05-23,Mathematics,2.8
+1997,Robert,Ramos,Male,2002-11-12,Mathematics,3.87
+1998,Michael,Flynn,Male,1990-11-09,Mathematics,2.52
+1999,Alicia,Cooke,Male,1992-01-03,Mathematics,3.34
+2000,Kelly,Spencer,Male,1999-10-26,Computer Science,3.65
+2001,Jill,Perez,Female,1994-05-27,Physics,2.44
+2002,Dwayne,Williams,Female,1992-07-01,Physics,2.28
+2003,Nichole,Miller,Female,2002-11-06,Biology,3.38
+2004,Louis,Collins,Male,2003-08-25,Mathematics,2.79
+2005,Tristan,Dawson,Male,2002-09-22,Mathematics,2.79
+2006,Jason,Barber,Male,2004-09-16,Mathematics,4.0
+2007,Valerie,King,Male,1995-02-12,Mathematics,2.96
+2008,John,Frye,Male,1993-05-26,Mathematics,3.21
+2009,Debbie,Martin,Female,1997-09-30,Physics,2.78
+2010,Michael,Richardson,Male,1994-04-18,Physics,2.77
+2011,Kevin,Smith,Male,1993-01-18,Physics,3.14
+2012,Anthony,Anderson,Male,1996-12-12,Biology,4.0
+2013,Kathleen,Barrera,Male,1992-06-02,Physics,3.16
+2014,Sean,Henderson,Female,2001-01-23,Biology,2.93
+2015,Kristin,Brown,Female,1999-07-30,Physics,3.7
+2016,Micheal,Garcia,Male,1995-01-08,Physics,3.31
+2017,Courtney,Hunter,Female,1992-09-22,Biology,2.53
+2018,Katherine,Harris,Male,1997-11-28,Computer Science,2.66
+2019,Chelsea,Cardenas,Male,1992-08-05,Computer Science,2.0
+2020,Philip,Wolfe,Male,2000-10-02,Physics,3.19
+2021,Matthew,Pace,Female,1994-04-15,Mathematics,2.4
+2022,Christopher,Blake,Male,1991-08-26,Biology,2.52
+2023,Ronald,Brown,Male,2002-05-11,Physics,2.06
+2024,Ryan,Green,Male,1999-10-15,Physics,2.29
+2025,Rebecca,Gibson,Female,2004-01-21,Biology,3.46
+2026,Willie,Smith,Male,1997-02-07,Biology,4.0
+2027,Christine,Jackson,Male,2003-05-01,Physics,2.8
+2028,Rachael,Munoz,Female,2001-08-15,Biology,3.09
+2029,Vanessa,Jones,Female,1997-01-24,Physics,2.63
+2030,Nicole,Anderson,Female,1992-10-19,Computer Science,2.58
+2031,Cindy,Thompson,Female,2003-06-10,Computer Science,2.6
+2032,Tonya,Long,Male,1990-12-06,Physics,2.9
+2033,Donna,Lewis,Male,2005-10-08,Biology,3.77
+2034,Brian,Vasquez,Male,1998-07-24,Biology,2.91
+2035,Emily,Moran,Male,1990-04-25,Physics,2.44
+2036,Robert,Cowan,Female,1991-06-23,Mathematics,3.57
+2037,Stephanie,Jackson,Female,1998-02-04,Mathematics,4.0
+2038,Christine,Thomas,Female,1994-01-23,Computer Science,2.4
+2039,William,Blake,Female,2001-03-14,Mathematics,2.82
+2040,Brittney,Kirby,Female,1993-04-18,Physics,3.02
+2041,Jessica,Jones,Female,1995-07-15,Physics,3.87
+2042,Steven,Flores,Male,2004-08-06,Computer Science,3.01
+2043,Jessica,Shannon,Female,1994-05-20,Biology,3.47
+2044,Joshua,Bender,Female,1995-07-16,Mathematics,3.64
+2045,Allison,Browning,Male,1995-11-25,Mathematics,2.44
+2046,Cindy,Oconnor,Female,1997-09-16,Computer Science,2.81
+2047,Kevin,Stewart,Male,2003-11-22,Physics,3.98
+2048,Joseph,Delgado,Female,2000-03-04,Computer Science,2.92
+2049,Matthew,Bradley,Male,1995-05-19,Physics,2.08
+2050,Derek,Carney,Male,1999-04-08,Biology,2.94
+2051,Ronald,Jordan,Male,1995-08-13,Computer Science,3.26
+2052,Jason,Williams,Male,1997-05-27,Computer Science,3.22
+2053,Marissa,Burns,Female,2001-01-27,Physics,3.31
+2054,Adam,Burgess,Female,1992-03-02,Physics,2.64
+2055,Ian,Vargas,Male,2005-09-28,Physics,2.99
+2056,Darren,Schwartz,Female,2002-12-13,Biology,2.61
+2057,Tiffany,Dawson,Female,1997-12-02,Computer Science,3.54
+2058,Dale,Baxter,Male,2000-05-28,Mathematics,2.65
+2059,Robert,Carter,Female,2004-06-08,Computer Science,2.98
+2060,Dorothy,Jackson,Female,1996-08-29,Mathematics,4.0
+2061,Matthew,Campbell,Male,1996-05-24,Computer Science,2.8
+2062,Anthony,Woods,Female,1996-03-10,Biology,3.66
+2063,Karen,Robertson,Male,1999-11-30,Physics,3.31
+2064,Jordan,Wilson,Male,2003-09-01,Biology,2.5
+2065,Paula,French,Male,1999-10-23,Physics,2.68
+2066,Ann,Baldwin,Male,2000-03-29,Physics,3.41
+2067,Michael,Williams,Male,2000-12-13,Biology,2.4
+2068,Mark,Whitney,Male,1994-05-22,Physics,2.53
+2069,Jason,Abbott,Female,2001-11-11,Physics,3.18
+2070,Monica,Rodriguez,Male,1998-12-13,Mathematics,2.99
+2071,Nancy,Brady,Male,1992-10-07,Physics,2.0
+2072,Lindsay,Cisneros,Female,2004-01-24,Computer Science,2.83
+2073,Ashlee,Williams,Male,1998-03-19,Biology,3.21
+2074,Jennifer,Miller,Female,1999-12-07,Computer Science,2.26
+2075,Ashley,Washington,Male,1998-09-21,Mathematics,3.15
+2076,Jessica,Gibbs,Male,1994-02-25,Physics,4.0
+2077,Mason,Rodriguez,Male,1996-12-06,Computer Science,2.84
+2078,Jennifer,Wilson,Female,1997-05-17,Mathematics,3.59
+2079,Kaitlyn,Nichols,Male,2002-09-27,Physics,2.0
+2080,Melanie,Gonzales,Female,1996-01-23,Computer Science,3.44
+2081,Donna,Thompson,Female,1990-04-11,Biology,2.55
+2082,Nicole,Martin,Female,1994-04-11,Computer Science,3.26
+2083,Walter,Martin,Male,2004-10-04,Mathematics,3.21
+2084,Anthony,Martin,Female,1996-11-11,Physics,2.98
+2085,Wayne,Harris,Female,1999-07-01,Mathematics,3.49
+2086,Danielle,Atkinson,Female,1999-12-05,Computer Science,2.79
+2087,Andrew,Ward,Male,1994-08-01,Physics,3.46
+2088,Jennifer,Howe,Female,1993-12-31,Computer Science,3.13
+2089,Benjamin,Williams,Male,1997-05-19,Physics,2.84
+2090,Betty,Morris,Male,1993-11-20,Biology,2.5
+2091,Heather,Johnson,Male,1999-05-13,Computer Science,2.95
+2092,Evan,Hall,Female,1995-02-04,Computer Science,2.99
+2093,Michael,King,Female,1995-12-11,Biology,2.82
+2094,Briana,Buchanan,Female,1994-08-28,Mathematics,3.3
+2095,Angela,Manning,Male,2002-03-25,Physics,3.25
+2096,Amber,Short,Female,1992-01-31,Physics,3.0
+2097,Shelby,Johnson,Female,1993-03-04,Computer Science,2.85
+2098,Tracy,Brown,Female,2003-05-23,Mathematics,3.79
+2099,Valerie,Beck,Female,1996-10-17,Biology,2.93
+2100,Kimberly,Morton,Female,1991-11-30,Computer Science,2.61
+2101,Emily,Washington,Male,2000-01-18,Physics,2.0
+2102,Jasmine,Stone,Female,2000-12-03,Biology,2.75
+2103,Angela,Ross,Female,2002-08-08,Physics,2.0
+2104,Erika,Smith,Male,2005-11-27,Computer Science,2.0
+2105,Juan,Allen,Female,1999-12-09,Physics,2.0
+2106,Thomas,Bailey,Male,1992-05-16,Computer Science,2.7
+2107,Cathy,Snyder,Male,1996-08-19,Computer Science,2.19
+2108,Valerie,Howard,Female,1991-04-16,Mathematics,3.17
+2109,Steve,Martin,Male,1994-05-25,Biology,2.7
+2110,Amanda,Williams,Male,2005-10-07,Physics,3.3
+2111,Karen,Reyes,Male,2005-02-16,Biology,2.71
+2112,Robert,Jenkins,Female,2001-10-04,Physics,2.83
+2113,Robyn,Williams,Male,2000-04-08,Mathematics,3.01
+2114,Edward,Collins,Female,2001-01-25,Biology,2.65
+2115,Rebecca,Franklin,Male,2004-07-13,Computer Science,2.88
+2116,Carol,Morris,Male,2005-07-06,Computer Science,3.49
+2117,Joseph,Trujillo,Female,1998-06-26,Computer Science,3.3
+2118,Gregory,Burnett,Male,2005-02-21,Biology,3.14
+2119,Sarah,Lee,Female,1997-12-15,Biology,3.98
+2120,Patricia,Brandt,Female,1997-10-19,Physics,3.71
+2121,Kristin,Cobb,Female,1992-11-30,Physics,3.22
+2122,Joann,Murphy,Female,2004-05-06,Biology,2.52
+2123,Monica,Castro,Male,1997-08-14,Biology,2.12
+2124,Michael,Sanders,Female,1990-08-31,Physics,3.25
+2125,Bailey,Calderon,Female,2000-07-23,Physics,3.91
+2126,Sandra,Winters,Male,1999-10-28,Computer Science,2.93
+2127,Brittany,Young,Male,1997-01-30,Computer Science,3.56
+2128,Lawrence,Reynolds,Female,2000-06-04,Mathematics,3.58
+2129,Nicole,Martin,Male,1994-06-12,Physics,3.53
+2130,Jennifer,Stafford,Female,1991-07-28,Physics,3.19
+2131,Kristin,Cook,Female,2004-03-07,Biology,3.46
+2132,Barry,Garcia,Male,1994-04-05,Biology,2.38
+2133,Sara,Smith,Female,1998-12-14,Biology,3.24
+2134,Ruben,Mcdonald,Female,1995-07-12,Mathematics,2.99
+2135,Timothy,Paul,Male,1991-09-12,Mathematics,3.32
+2136,Matthew,Barnes,Female,1994-08-27,Biology,3.68
+2137,Lindsay,Carroll,Male,1993-06-23,Computer Science,2.81
+2138,Justin,Whitehead,Male,2002-08-03,Physics,4.0
+2139,Jeffrey,Taylor,Female,2003-06-22,Biology,3.5
+2140,Brandon,King,Male,2000-02-13,Biology,3.3
+2141,Kaitlyn,Castillo,Female,1997-09-17,Physics,2.26
+2142,Pamela,Roberts,Female,2003-11-26,Mathematics,2.14
+2143,Sarah,Schroeder,Female,1997-11-11,Mathematics,3.6
+2144,James,Jordan,Male,1996-11-06,Computer Science,3.2
+2145,Joseph,Swanson,Female,1997-01-24,Physics,3.27
+2146,John,Valdez,Female,1991-12-09,Biology,2.48
+2147,Cody,Bowman,Female,1992-01-25,Biology,2.66
+2148,Kyle,Cisneros,Male,2001-02-16,Mathematics,2.0
+2149,Charles,Morales,Male,1997-06-19,Mathematics,2.54
+2150,Matthew,Zamora,Female,2000-03-23,Computer Science,3.48
+2151,Daniel,White,Female,1991-09-08,Mathematics,2.81
+2152,Brandi,Bush,Female,2005-10-24,Biology,3.71
+2153,Jennifer,Brown,Female,1992-07-09,Mathematics,2.49
+2154,Karen,James,Male,1998-12-21,Mathematics,2.49
+2155,Eugene,Davidson,Male,2003-08-28,Biology,2.79
+2156,Kelly,Chapman,Male,2004-05-05,Physics,4.0
+2157,Jesse,Willis,Male,1998-03-25,Computer Science,3.62
+2158,Jessica,Perry,Male,1993-10-14,Computer Science,2.2
+2159,Robert,Patton,Female,2004-07-15,Mathematics,3.21
+2160,Laura,Roberson,Female,1996-06-29,Mathematics,3.15
+2161,Timothy,Perry,Female,2000-05-26,Mathematics,3.32
+2162,Alison,Anderson,Female,1993-04-11,Physics,3.44
+2163,Gail,Martinez,Female,1997-05-16,Physics,3.03
+2164,Ryan,Henderson,Female,1990-08-29,Physics,2.85
+2165,Joshua,Hayes,Female,2002-05-14,Computer Science,2.0
+2166,Benjamin,Garcia,Female,2002-09-04,Computer Science,2.16
+2167,Kevin,Morgan,Male,1995-05-04,Physics,2.57
+2168,Roger,Costa,Male,2004-09-20,Physics,3.37
+2169,Kenneth,Martin,Male,1991-01-02,Biology,3.15
+2170,Gina,Rivera,Female,1998-04-16,Computer Science,3.35
+2171,Tina,Phillips,Male,2004-08-26,Computer Science,2.43
+2172,Amanda,Smith,Male,2005-03-01,Biology,3.18
+2173,Wesley,Rhodes,Male,1992-10-25,Biology,2.68
+2174,Linda,Armstrong,Female,1994-08-14,Mathematics,2.0
+2175,Corey,Sampson,Female,1992-05-16,Biology,3.19
+2176,Timothy,Norman,Male,1991-03-13,Mathematics,2.93
+2177,Michael,Young,Female,1995-07-04,Computer Science,2.13
+2178,Natalie,Williams,Female,1991-02-20,Mathematics,3.43
+2179,Claire,Beltran,Female,2001-12-09,Biology,2.78
+2180,Tyler,Mclaughlin,Female,2004-07-22,Mathematics,3.05
+2181,William,Chavez,Male,2000-03-07,Computer Science,2.39
+2182,Paul,Anderson,Male,2000-02-28,Physics,3.08
+2183,Kim,Hurst,Female,1997-06-24,Mathematics,3.18
+2184,April,Hernandez,Female,2003-05-13,Physics,3.57
+2185,John,Williams,Female,1993-01-10,Physics,2.38
+2186,Zachary,Wright,Female,1996-11-16,Mathematics,3.04
+2187,Lisa,Hernandez,Female,2001-06-25,Biology,2.05
+2188,Jeffrey,Pollard,Male,1991-07-24,Physics,3.0
+2189,Michelle,Lynch,Male,2001-02-11,Mathematics,2.71
+2190,Cassandra,Powell,Female,1997-11-20,Biology,3.64
+2191,Edward,Harris,Male,2001-07-17,Biology,2.62
+2192,Michael,Gonzalez,Female,1998-12-12,Computer Science,4.0
+2193,Teresa,Cruz,Female,2000-01-05,Biology,2.77
+2194,Joshua,Walker,Male,2004-08-11,Physics,2.59
+2195,Kristin,Chapman,Male,1993-11-17,Computer Science,2.79
+2196,Mitchell,Robinson,Male,1996-10-06,Physics,3.33
+2197,Diane,Mckay,Female,1996-12-20,Biology,2.7
+2198,Jessica,Patel,Male,1999-03-21,Computer Science,2.67
+2199,George,Reynolds,Male,2005-06-11,Physics,2.26
+2200,Jason,Berry,Female,2001-10-31,Biology,3.24
+2201,Austin,Freeman,Male,1999-08-16,Mathematics,2.99
+2202,Carl,Martinez,Male,2000-03-14,Physics,2.95
+2203,Seth,Hanson,Male,1990-10-03,Computer Science,2.41
+2204,Debra,Gomez,Male,1993-10-12,Physics,2.91
+2205,Alexander,Haney,Female,1991-08-30,Computer Science,2.86
+2206,Ashley,Drake,Male,1992-06-21,Biology,2.37
+2207,John,Smith,Female,1994-06-25,Biology,2.97
+2208,Randy,Meyer,Male,1992-10-21,Physics,4.0
+2209,Alicia,Ball,Female,1994-09-02,Computer Science,2.29
+2210,Steven,Holmes,Female,2000-04-14,Computer Science,2.77
+2211,David,Thompson,Female,2005-01-25,Computer Science,3.0
+2212,Hayden,Smith,Female,1994-06-25,Biology,2.67
+2213,Zachary,Pennington,Female,2001-11-11,Computer Science,2.33
+2214,Sherry,Martinez,Female,2001-02-05,Computer Science,2.43
+2215,Mark,Collier,Female,2001-07-28,Mathematics,3.11
+2216,Robert,Michael,Female,1997-10-08,Mathematics,2.82
+2217,James,Pacheco,Female,2000-09-05,Biology,3.55
+2218,Autumn,Ferguson,Female,1998-10-02,Computer Science,3.41
+2219,Grace,Hunter,Male,1995-07-16,Physics,3.76
+2220,Tonya,Green,Female,1995-11-11,Physics,4.0
+2221,Richard,Garcia,Male,1996-09-07,Physics,3.05
+2222,Daniel,Andrews,Female,1996-03-29,Physics,3.62
+2223,Kyle,Ramos,Male,1994-08-09,Computer Science,2.45
+2224,Marcus,Mccarthy,Male,1992-05-03,Biology,3.79
+2225,Patricia,Velasquez,Male,1991-08-11,Physics,3.17
+2226,Samuel,Moyer,Male,2002-02-28,Computer Science,3.13
+2227,Tammy,Simmons,Male,1994-01-11,Biology,3.11
+2228,Laura,Wilkinson,Female,2002-03-19,Physics,2.93
+2229,Jennifer,Duarte,Female,1998-10-26,Biology,2.37
+2230,Wanda,Vasquez,Female,2001-04-06,Physics,2.79
+2231,Michael,Meza,Female,2005-01-12,Mathematics,2.71
+2232,Latoya,Martin,Female,2001-07-19,Computer Science,2.67
+2233,Cameron,Crane,Female,1995-03-19,Biology,2.72
+2234,Laura,Gordon,Male,1996-07-10,Physics,3.32
+2235,Cheryl,Thompson,Male,2005-10-13,Mathematics,2.5
+2236,Erin,Chen,Male,1996-02-08,Biology,2.69
+2237,Stacie,Thompson,Female,1992-06-22,Computer Science,2.4
+2238,Arthur,Horne,Female,1997-07-18,Computer Science,3.22
+2239,Barbara,Cannon,Male,1991-10-24,Physics,3.7
+2240,Danny,Jensen,Female,2003-08-29,Physics,3.3
+2241,Bryan,Avila,Female,2004-03-13,Biology,2.53
+2242,Angel,Carroll,Male,1992-11-23,Physics,2.71
+2243,Randall,Byrd,Female,1995-02-12,Mathematics,3.23
+2244,Cameron,Smith,Female,2004-06-18,Mathematics,2.02
+2245,Jessica,Knight,Female,1995-10-30,Physics,2.84
+2246,Sandy,Smith,Female,1993-12-14,Computer Science,3.43
+2247,Robert,Wong,Female,2002-07-18,Physics,2.0
+2248,David,Garcia,Female,1995-09-22,Biology,3.42
+2249,Laura,Cole,Female,1991-10-16,Computer Science,2.38
+2250,Frances,Webb,Male,2001-07-23,Biology,2.81
+2251,Melissa,Garza,Female,2000-11-09,Mathematics,3.05
+2252,Donald,Sweeney,Female,1990-03-30,Biology,3.01
+2253,Eric,Smith,Female,2002-05-06,Biology,3.06
+2254,Brian,Ward,Female,1991-03-12,Mathematics,3.58
+2255,Alexandra,Barnes,Female,1999-06-02,Physics,3.52
+2256,Douglas,Bass,Female,1996-05-10,Computer Science,3.25
+2257,Alexandra,Cameron,Female,1993-12-22,Physics,3.82
+2258,Jason,Gibson,Female,1993-11-17,Computer Science,2.77
+2259,Jessica,Black,Female,1993-01-08,Computer Science,2.58
+2260,Kelly,Jones,Male,2001-02-19,Computer Science,2.45
+2261,Robert,Owens,Male,2001-12-25,Computer Science,3.63
+2262,Laura,Yoder,Male,2004-07-25,Computer Science,3.19
+2263,Brett,Wade,Female,1998-09-15,Physics,3.11
+2264,Joan,Baker,Male,1997-10-04,Physics,4.0
+2265,Sally,Thompson,Female,2004-02-26,Biology,2.46
+2266,Roy,Johnson,Male,1991-03-30,Computer Science,2.84
+2267,Jennifer,Fisher,Male,1998-06-14,Mathematics,2.61
+2268,James,Sheppard,Female,1998-12-04,Biology,3.06
+2269,Anthony,Melton,Female,2005-07-26,Physics,2.76
+2270,Joseph,Singh,Male,2004-09-20,Computer Science,2.65
+2271,David,Bryant,Male,1999-12-02,Computer Science,3.3
+2272,Jennifer,Leblanc,Male,1994-02-08,Computer Science,2.82
+2273,Daniel,Hunt,Female,2003-04-06,Physics,3.37
+2274,Elizabeth,Jackson,Female,2003-11-26,Biology,4.0
+2275,Steven,Davis,Female,1999-10-09,Computer Science,4.0
+2276,Kyle,Cross,Male,1994-05-23,Physics,2.0
+2277,Sharon,Clark,Male,1998-09-13,Physics,3.17
+2278,Kaitlin,Townsend,Female,1994-05-29,Physics,2.9
+2279,Tina,Tanner,Female,1997-09-28,Biology,3.31
+2280,Edward,Ortiz,Male,2000-03-29,Biology,3.47
+2281,Victoria,Gonzalez,Male,1997-07-06,Physics,2.96
+2282,David,Quinn,Female,1995-11-10,Physics,3.18
+2283,Jennifer,Schneider,Male,1998-03-24,Biology,3.01
+2284,Martha,French,Female,1992-10-15,Physics,2.76
+2285,Daniel,Floyd,Male,2005-07-20,Biology,3.05
+2286,Shelly,Hardin,Male,1992-08-08,Biology,2.87
+2287,Brittany,Carroll,Female,2000-06-03,Mathematics,3.02
+2288,Angela,Skinner,Male,1993-10-25,Mathematics,3.46
+2289,Victor,Walker,Female,1997-01-07,Physics,2.5
+2290,Jason,Banks,Male,1992-10-09,Mathematics,3.16
+2291,Erica,Moore,Male,2005-10-09,Computer Science,2.99
+2292,Margaret,Austin,Female,1993-01-29,Physics,2.51
+2293,Stephanie,Cunningham,Male,1992-05-10,Biology,2.0
+2294,Curtis,Wall,Male,1997-07-15,Physics,2.99
+2295,Steven,Hale,Female,1998-10-25,Computer Science,2.97
+2296,Laurie,Jones,Male,1997-03-31,Biology,2.94
+2297,Stephanie,Bray,Female,1992-09-12,Mathematics,3.41
+2298,Jennifer,Reeves,Male,2000-05-21,Physics,3.03
+2299,Richard,Grant,Female,1990-03-03,Physics,3.56
+2300,Angela,Williams,Male,2005-10-11,Biology,3.46
+2301,Kimberly,Cook,Male,2004-08-05,Computer Science,3.34
+2302,Stephanie,Smith,Male,2004-01-15,Biology,3.85
+2303,Raven,Ward,Male,2004-09-07,Biology,2.0
+2304,Tracy,Mitchell,Male,1994-09-01,Physics,2.72
+2305,Stephanie,Bell,Female,1992-01-24,Physics,3.23
+2306,Clifford,Fisher,Male,1995-03-29,Mathematics,2.78
+2307,Steve,Harris,Female,1991-11-25,Computer Science,3.08
+2308,Stephen,Fowler,Male,1997-06-07,Computer Science,2.36
+2309,Allison,Wade,Female,2003-12-24,Computer Science,3.47
+2310,Richard,Robinson,Female,1992-11-10,Computer Science,2.22
+2311,Pedro,Rodgers,Female,2001-05-20,Physics,2.79
+2312,Randy,Mclaughlin,Female,2001-12-20,Mathematics,2.54
+2313,Allison,Jenkins,Female,1993-12-03,Mathematics,3.46
+2314,Brittany,Rodriguez,Male,1994-07-20,Computer Science,2.88
+2315,Travis,Gonzalez,Male,2000-08-10,Physics,4.0
+2316,Zachary,Alvarez,Female,1990-03-02,Computer Science,2.0
+2317,Susan,Kelley,Male,2005-08-10,Physics,2.04
+2318,Judy,Merritt,Female,1998-07-14,Physics,3.64
+2319,Timothy,Lee,Male,1991-06-13,Computer Science,2.0
+2320,Charlotte,Henderson,Male,1993-01-08,Physics,2.73
+2321,Edward,Simon,Male,1993-07-17,Computer Science,2.87
+2322,Anne,Wagner,Male,2005-07-15,Computer Science,2.12
+2323,Joshua,Hawkins,Male,1991-02-21,Mathematics,2.23
+2324,Cameron,Rodriguez,Female,1990-07-17,Computer Science,3.75
+2325,William,Mccormick,Male,1997-07-07,Mathematics,3.57
+2326,Jose,Mooney,Male,1999-03-19,Computer Science,3.43
+2327,Lori,Johnson,Male,1995-05-22,Mathematics,3.16
+2328,Linda,Powers,Female,2002-11-12,Biology,3.68
+2329,Isabel,Holt,Female,2001-01-24,Biology,2.72
+2330,Alexander,Martin,Female,1997-05-13,Biology,3.16
+2331,Brad,Case,Female,2003-12-26,Biology,3.61
+2332,Kim,Meyers,Male,1994-02-22,Biology,3.39
+2333,Tony,Leonard,Male,1999-06-07,Physics,4.0
+2334,Cynthia,Nguyen,Female,1999-07-31,Computer Science,3.33
+2335,Michael,Rosales,Female,1992-07-16,Biology,2.39
+2336,Cesar,Howard,Female,1996-10-25,Computer Science,2.63
+2337,Douglas,Bryant,Male,1992-04-11,Physics,2.3
+2338,Brittany,Jensen,Female,1991-05-24,Physics,2.17
+2339,Chris,Thomas,Female,2000-10-20,Physics,2.4
+2340,Andrew,George,Male,1995-07-11,Mathematics,2.4
+2341,Thomas,Kirby,Male,1997-01-23,Physics,3.17
+2342,Ann,Waters,Male,2003-05-10,Mathematics,2.02
+2343,Michael,Wilson,Male,1991-12-31,Mathematics,2.73
+2344,Cynthia,White,Female,1990-11-25,Computer Science,3.99
+2345,Darrell,Rodriguez,Female,2002-11-18,Physics,2.45
+2346,Chad,Morris,Female,1996-12-29,Physics,2.91
+2347,Daniel,Burke,Male,2002-05-10,Physics,2.82
+2348,Michael,Hill,Male,1991-11-09,Physics,2.84
+2349,Patricia,Anderson,Female,2001-01-02,Mathematics,2.09
+2350,Melanie,Doyle,Male,2003-10-21,Mathematics,3.13
+2351,Jason,Sanchez,Female,1990-10-31,Biology,2.89
+2352,Kevin,Spencer,Female,1991-05-19,Biology,2.78
+2353,Cheryl,Delgado,Female,1997-03-23,Mathematics,3.59
+2354,Casey,Rodriguez,Female,1993-12-12,Physics,3.05
+2355,Jonathan,Guzman,Male,1998-10-02,Mathematics,2.04
+2356,David,Thomas,Female,2000-09-07,Mathematics,2.1
+2357,Joyce,Wilson,Male,2002-11-05,Biology,2.34
+2358,Brooke,Doyle,Male,2005-04-19,Physics,3.6
+2359,Dawn,West,Female,1996-10-26,Physics,2.95
+2360,Lisa,Williams,Female,2000-11-17,Computer Science,2.76
+2361,Sophia,Harris,Male,2004-02-08,Mathematics,3.61
+2362,Jeffrey,Johnson,Male,1996-01-25,Physics,2.0
+2363,Margaret,Cox,Female,2000-02-28,Biology,2.73
+2364,Christopher,Soto,Male,2005-06-10,Computer Science,2.64
+2365,James,Velasquez,Male,2004-04-28,Biology,2.33
+2366,Karen,Garcia,Female,2005-07-27,Computer Science,3.16
+2367,Gloria,Sanchez,Female,1994-05-08,Physics,3.41
+2368,Jacob,Mcneil,Male,2004-06-18,Mathematics,3.11
+2369,Kristin,Martinez,Male,1991-10-09,Physics,2.34
+2370,Dana,Tucker,Female,1995-04-22,Mathematics,2.2
+2371,Barbara,Lyons,Male,1993-08-01,Biology,3.52
+2372,Joe,Carson,Male,1998-05-27,Computer Science,3.8
+2373,Randall,Mccall,Female,1996-07-02,Mathematics,2.24
+2374,Carl,Carter,Male,2002-01-11,Mathematics,2.68
+2375,Denise,Odom,Female,1999-10-10,Biology,3.44
+2376,Loretta,Lewis,Male,1997-04-04,Biology,3.82
+2377,Adam,Nelson,Female,1996-03-17,Computer Science,3.05
+2378,Kiara,Brewer,Male,1995-01-23,Biology,3.66
+2379,Erica,Robinson,Female,1990-03-22,Physics,3.51
+2380,Alicia,Barker,Male,1994-07-08,Computer Science,2.61
+2381,Wayne,Smith,Male,1999-10-04,Mathematics,2.93
+2382,Brittany,Smith,Male,2004-01-18,Physics,2.66
+2383,Jose,Norris,Male,2003-10-19,Biology,2.47
+2384,James,Brown,Female,2004-01-26,Mathematics,3.46
+2385,Nicole,Evans,Female,1997-01-30,Physics,3.36
+2386,Scott,Williams,Male,1998-11-28,Physics,3.72
+2387,Scott,Green,Male,1997-05-21,Biology,3.3
+2388,Kenneth,Valdez,Male,1998-11-17,Mathematics,2.44
+2389,Christopher,Brown,Male,1992-11-12,Computer Science,3.81
+2390,Melissa,Waller,Female,1997-05-12,Mathematics,3.12
+2391,Clayton,Silva,Female,2005-07-23,Computer Science,2.8
+2392,Kimberly,Wu,Female,2000-03-05,Computer Science,2.52
+2393,Jessica,Simon,Male,2003-05-22,Computer Science,3.7
+2394,Richard,Cruz,Female,1991-08-28,Biology,2.91
+2395,Russell,Brown,Female,2000-04-06,Computer Science,3.44
+2396,Pamela,Fox,Male,1998-05-03,Biology,2.68
+2397,Corey,Smith,Female,1993-06-01,Biology,2.84
+2398,James,Delgado,Male,1991-06-28,Biology,3.59
+2399,Karen,Henderson,Male,1998-01-08,Mathematics,3.29
+2400,Adrian,Keller,Male,1992-12-02,Mathematics,2.78
+2401,Whitney,Jones,Female,1990-02-25,Biology,3.83
+2402,Colleen,Smith,Male,2004-12-31,Physics,2.0
+2403,Christopher,Pennington,Female,2004-08-16,Mathematics,3.11
+2404,Erica,Kennedy,Female,1993-07-10,Computer Science,3.51
+2405,Melissa,Garner,Female,2004-09-23,Physics,3.22
+2406,Robert,Jackson,Female,1998-06-10,Biology,2.55
+2407,Sara,Nixon,Female,2002-08-01,Biology,3.26
+2408,Patty,Smith,Female,2004-07-12,Mathematics,2.0
+2409,Raven,Zuniga,Female,2003-03-17,Biology,2.94
+2410,Holly,Odonnell,Male,2001-08-25,Biology,3.48
+2411,Jennifer,Mcdaniel,Female,1990-04-05,Biology,2.69
+2412,James,Valdez,Female,1990-03-13,Mathematics,3.05
+2413,Frank,Fox,Female,1996-10-01,Biology,2.43
+2414,Susan,Cox,Male,1991-04-16,Biology,3.35
+2415,Wayne,Kramer,Female,1999-01-26,Biology,2.38
+2416,Vincent,Clements,Male,2000-05-29,Computer Science,3.06
+2417,Kimberly,Campos,Male,1993-05-07,Biology,3.84
+2418,Jeffrey,Buckley,Male,2001-02-11,Mathematics,3.25
+2419,Christopher,Carter,Male,1996-11-26,Biology,2.8
+2420,Stephen,Morales,Male,1999-02-22,Biology,2.7
+2421,Carolyn,Solomon,Male,1990-03-10,Biology,2.07
+2422,Nicholas,King,Female,2001-03-10,Mathematics,2.75
+2423,Kristen,Hernandez,Female,2001-06-16,Physics,4.0
+2424,Adam,Bailey,Male,2004-09-18,Computer Science,3.37
+2425,Mackenzie,Simpson,Female,2000-01-16,Physics,2.91
+2426,Cory,Anderson,Female,1999-03-29,Physics,3.24
+2427,David,Taylor,Male,2001-06-08,Mathematics,3.1
+2428,Derek,Lewis,Female,2000-10-23,Biology,2.44
+2429,Christina,Jones,Female,1993-04-25,Computer Science,2.38
+2430,Kimberly,Clark,Female,2000-11-06,Computer Science,2.59
+2431,Mitchell,Johnson,Male,2003-06-10,Computer Science,2.45
+2432,Brandi,Cochran,Female,2003-04-25,Physics,3.57
+2433,Jessica,Warren,Male,1995-04-02,Computer Science,3.69
+2434,William,Dominguez,Male,1996-08-05,Computer Science,2.7
+2435,Alexander,Clark,Female,2001-09-10,Biology,3.2
+2436,Brittany,Hernandez,Female,1993-08-01,Physics,3.08
+2437,Richard,Zhang,Male,1996-11-27,Mathematics,2.13
+2438,Zachary,King,Male,1993-01-18,Mathematics,2.39
+2439,Diana,Turner,Female,1993-06-22,Biology,2.16
+2440,Cameron,Pennington,Male,2002-11-20,Biology,3.37
+2441,Christopher,Gonzalez,Male,1997-02-26,Biology,2.48
+2442,Mikayla,Cooley,Male,1998-09-27,Biology,3.54
+2443,Anna,Burns,Male,1991-06-01,Physics,2.0
+2444,Erik,Marshall,Male,1994-02-18,Biology,2.75
+2445,Chelsea,Torres,Male,1998-08-06,Biology,2.53
+2446,Gerald,Christensen,Female,1995-05-28,Mathematics,3.11
+2447,Brooke,Estes,Male,2005-10-18,Physics,2.14
+2448,Latoya,Chaney,Female,1993-06-10,Computer Science,3.53
+2449,John,Hernandez,Female,2001-07-19,Computer Science,2.48
+2450,Paige,Freeman,Male,2004-04-27,Mathematics,3.33
+2451,John,Moore,Female,1997-07-09,Biology,3.57
+2452,Barbara,Lee,Male,2000-06-07,Mathematics,3.18
+2453,James,Munoz,Female,1993-03-17,Computer Science,2.51
+2454,Joseph,Coleman,Female,1990-02-04,Physics,3.57
+2455,Angel,Fritz,Female,1992-07-12,Biology,2.61
+2456,Cynthia,Bennett,Female,1998-10-04,Mathematics,2.0
+2457,Selena,Nicholson,Female,1996-05-03,Biology,3.78
+2458,Alan,Potter,Male,2002-09-30,Biology,2.0
+2459,Tara,Myers,Male,1995-04-10,Biology,2.44
+2460,Blake,David,Male,1998-02-14,Mathematics,2.33
+2461,Paul,Davidson,Male,2001-11-06,Biology,2.35
+2462,Matthew,Warner,Female,1993-10-01,Computer Science,2.98
+2463,Cynthia,Thompson,Male,2001-11-04,Computer Science,3.42
+2464,Edward,Martinez,Female,1994-08-28,Computer Science,2.69
+2465,Debra,Adams,Female,1997-01-15,Biology,3.19
+2466,Clayton,Davis,Female,2005-06-30,Physics,2.12
+2467,Carrie,Deleon,Female,1993-11-16,Biology,3.31
+2468,Jennifer,Price,Male,2005-04-09,Physics,2.83
+2469,Eileen,Peterson,Male,1992-07-19,Physics,3.47
+2470,John,Lloyd,Female,2002-08-21,Physics,2.99
+2471,Joseph,Smith,Female,2002-02-10,Physics,3.17
+2472,Marissa,Ball,Female,1998-09-09,Computer Science,2.86
+2473,Joseph,Hahn,Female,1996-04-24,Physics,2.92
+2474,Randy,Davidson,Male,1992-11-15,Mathematics,3.43
+2475,Marcus,Ingram,Male,2004-09-13,Mathematics,2.29
+2476,John,Watson,Female,1991-05-08,Mathematics,2.0
+2477,Garrett,Hopkins,Female,2003-01-23,Physics,3.45
+2478,Sonia,Hartman,Male,2003-07-27,Physics,2.52
+2479,Christopher,Roth,Female,1997-10-16,Physics,3.28
+2480,Ronald,Chen,Male,1996-07-19,Computer Science,2.56
+2481,Tamara,Williams,Male,1993-08-31,Physics,3.55
+2482,Erin,Adams,Female,1993-01-03,Computer Science,2.69
+2483,Rachel,Harper,Female,2002-07-29,Biology,2.77
+2484,Troy,Lopez,Female,2005-11-22,Mathematics,2.88
+2485,Thomas,Reeves,Female,1991-02-03,Computer Science,3.09
+2486,Douglas,Wallace,Female,2004-12-05,Computer Science,3.39
+2487,George,Lee,Female,1996-03-07,Biology,3.46
+2488,Andrew,Ray,Male,2000-11-04,Physics,2.86
+2489,Dillon,Johnson,Female,2003-05-30,Computer Science,2.61
+2490,Katherine,Ramsey,Female,1997-12-19,Biology,2.15
+2491,Thomas,Harris,Female,1993-05-25,Computer Science,2.52
+2492,Kimberly,Villanueva,Male,2002-09-16,Physics,3.84
+2493,Mary,Andersen,Female,1999-03-30,Mathematics,2.26
+2494,Charles,Barry,Male,2000-10-28,Mathematics,2.71
+2495,Lauren,Bradley,Female,1997-09-03,Biology,2.89
+2496,Joyce,Dixon,Male,1997-08-14,Biology,3.5
+2497,Shelly,Park,Female,2004-12-03,Computer Science,2.74
+2498,Bryan,Watkins,Male,1993-09-23,Computer Science,2.69
+2499,Pamela,Ruiz,Female,1997-10-30,Physics,2.09
+2500,Michelle,Morris,Female,2004-01-17,Biology,3.37
+2501,Sean,Livingston,Male,2004-04-05,Physics,3.23
+2502,Penny,Stephens,Female,1993-01-04,Biology,3.51
+2503,James,Schwartz,Female,1997-10-20,Physics,4.0
+2504,Joshua,Ortiz,Male,1991-10-27,Physics,3.54
+2505,John,Simpson,Male,1995-05-22,Computer Science,3.43
+2506,William,Ramirez,Female,1990-11-10,Computer Science,3.79
+2507,Elizabeth,Li,Male,1997-09-08,Mathematics,2.7
+2508,Tom,Brown,Female,2003-07-28,Mathematics,3.58
+2509,Garrett,Perez,Male,1998-10-17,Biology,3.15
+2510,Alexander,Williams,Female,2005-06-13,Computer Science,3.02
+2511,Tammy,Sullivan,Female,1997-09-15,Physics,2.87
+2512,Jamie,Jones,Male,1992-01-05,Mathematics,2.99
+2513,Nathan,Garcia,Male,1993-03-28,Physics,3.32
+2514,Brandon,Walter,Female,1992-11-16,Physics,3.74
+2515,William,Sexton,Female,1992-07-22,Computer Science,2.97
+2516,Amy,George,Female,2001-01-11,Computer Science,2.44
+2517,Amanda,Richardson,Male,2004-11-21,Computer Science,3.07
+2518,Laura,Harris,Male,2000-05-16,Physics,3.57
+2519,Megan,Foster,Female,2002-01-02,Biology,3.85
+2520,Mark,Freeman,Female,1997-12-07,Computer Science,2.88
+2521,Mary,Obrien,Male,1995-03-22,Biology,2.48
+2522,Christie,Mckay,Male,1993-08-12,Mathematics,2.83
+2523,Stephanie,Anderson,Male,1996-10-30,Computer Science,2.81
+2524,Christopher,Mclaughlin,Male,1990-09-27,Physics,2.37
+2525,Gabriel,Brooks,Female,2003-10-31,Computer Science,3.47
+2526,Amanda,Marshall,Female,1994-11-28,Physics,2.0
+2527,Timothy,Harding,Male,1991-10-07,Biology,2.0
+2528,Gary,Mitchell,Female,2001-05-03,Mathematics,2.92
+2529,Shelby,Robinson,Female,1997-09-17,Computer Science,3.02
+2530,David,Anthony,Male,1998-07-22,Computer Science,3.03
+2531,Kimberly,Juarez,Male,1992-01-16,Computer Science,2.66
+2532,Theresa,Fitzpatrick,Male,2004-09-10,Physics,2.0
+2533,William,Burke,Male,2003-12-27,Biology,3.57
+2534,Nathaniel,Lopez,Male,1995-11-04,Biology,2.87
+2535,Jennifer,Sullivan,Male,2002-06-27,Mathematics,2.27
+2536,Holly,Rodriguez,Female,1998-01-16,Physics,3.04
+2537,Heather,Ferguson,Male,1997-10-18,Mathematics,3.03
+2538,John,Martinez,Female,2000-04-13,Physics,2.94
+2539,Lori,Cuevas,Male,1992-08-14,Physics,3.72
+2540,Mary,Larson,Male,1991-04-19,Mathematics,3.77
+2541,Meghan,Thomas,Female,1994-10-15,Mathematics,4.0
+2542,Jennifer,Howard,Male,1996-05-31,Computer Science,3.01
+2543,Brenda,Pennington,Female,1996-12-26,Mathematics,2.68
+2544,Christopher,Pacheco,Female,1992-11-20,Biology,3.42
+2545,Amy,Forbes,Male,1999-02-23,Physics,4.0
+2546,Robert,Adams,Female,2000-07-23,Computer Science,2.94
+2547,Nicholas,Velazquez,Male,1990-12-01,Physics,2.86
+2548,Donald,Townsend,Female,2002-05-08,Physics,2.13
+2549,Jaime,Scott,Female,1994-12-25,Mathematics,3.72
+2550,Patricia,Sullivan,Female,1995-11-29,Mathematics,2.0
+2551,Darryl,Williams,Male,1994-09-11,Physics,2.28
+2552,John,Barron,Male,1994-08-31,Biology,3.05
+2553,Denise,Welch,Female,1997-07-06,Biology,2.63
+2554,Garrett,Garza,Male,1994-05-23,Physics,2.66
+2555,Joe,Baker,Male,1991-05-04,Mathematics,3.05
+2556,Sarah,David,Female,1992-01-18,Mathematics,2.94
+2557,Jenna,Walker,Male,1995-10-14,Biology,3.36
+2558,Charles,Powers,Male,2002-01-18,Mathematics,2.63
+2559,Laurie,Burgess,Male,1996-01-05,Computer Science,3.5
+2560,Paul,Roy,Female,2002-03-15,Physics,3.24
+2561,Janet,Mendoza,Female,2003-04-25,Biology,3.63
+2562,Nathan,Reilly,Male,1995-03-23,Biology,2.76
+2563,Wendy,Brennan,Female,1990-06-19,Physics,2.53
+2564,Joshua,Massey,Female,1992-06-30,Computer Science,3.15
+2565,Philip,Medina,Male,1998-01-30,Computer Science,2.62
+2566,Damon,Johnson,Female,2002-02-04,Biology,2.84
+2567,Rachel,Sharp,Female,1994-08-31,Biology,2.84
+2568,Catherine,Vaughn,Female,1999-08-27,Computer Science,3.11
+2569,Francis,Arellano,Male,2004-03-27,Mathematics,3.33
+2570,Lori,Matthews,Female,1998-06-15,Computer Science,2.3
+2571,James,Hamilton,Male,1991-12-27,Mathematics,2.4
+2572,Joshua,Garcia,Female,1992-06-23,Computer Science,3.99
+2573,Thomas,Mcdaniel,Female,1995-05-03,Mathematics,2.71
+2574,Jason,Roman,Female,2000-08-01,Mathematics,3.05
+2575,Joshua,Smith,Female,2000-12-21,Mathematics,3.44
+2576,Tiffany,Gomez,Male,1996-12-29,Mathematics,2.42
+2577,Abigail,Gillespie,Male,2002-02-10,Mathematics,2.78
+2578,Donna,Powell,Male,1993-03-14,Computer Science,2.68
+2579,Jenna,Wilson,Male,2004-12-20,Mathematics,4.0
+2580,Maxwell,Gonzalez,Female,1995-09-23,Computer Science,2.56
+2581,Christopher,Osborne,Female,2000-01-05,Biology,3.17
+2582,Derrick,Thornton,Male,2003-03-29,Physics,3.03
+2583,Victor,Reese,Male,2002-04-30,Biology,3.31
+2584,Sara,Murphy,Female,2001-06-10,Physics,3.35
+2585,Jim,Perez,Female,1995-08-30,Physics,2.33
+2586,Sean,Rivera,Female,2002-07-04,Computer Science,2.68
+2587,Regina,Cox,Female,1992-11-18,Biology,2.57
+2588,Erin,Rich,Female,2005-12-15,Mathematics,3.16
+2589,Joe,Richardson,Male,2000-04-12,Mathematics,2.83
+2590,Mitchell,Townsend,Male,1991-05-23,Physics,2.25
+2591,Jessica,Powell,Male,1992-11-16,Biology,3.04
+2592,Kristine,Hall,Male,1995-12-23,Mathematics,2.4
+2593,James,Martin,Female,2001-03-19,Computer Science,3.73
+2594,Jamie,Stevenson,Male,1990-11-03,Physics,3.02
+2595,Alicia,Smith,Male,1998-10-01,Physics,4.0
+2596,Laura,Parsons,Female,1992-12-04,Biology,3.89
+2597,Benjamin,Espinoza,Female,1992-03-28,Biology,3.95
+2598,Theodore,Evans,Male,2001-05-19,Mathematics,3.0
+2599,Mark,Garcia,Female,1998-07-29,Biology,2.13
+2600,Karen,Colon,Male,2001-08-07,Mathematics,2.18
+2601,Todd,Leach,Female,1992-10-19,Physics,2.99
+2602,Jonathan,Anderson,Female,1990-08-30,Biology,2.39
+2603,Rebecca,Jimenez,Male,2002-10-28,Computer Science,3.12
+2604,George,Solis,Male,1999-11-19,Computer Science,2.91
+2605,Lisa,Thompson,Female,1994-12-06,Biology,3.29
+2606,Sean,Mueller,Female,2001-07-13,Mathematics,2.7
+2607,Todd,Fuller,Male,1992-05-20,Biology,3.08
+2608,Gregory,French,Male,1995-07-12,Biology,3.08
+2609,Ann,Green,Female,2005-05-19,Mathematics,3.49
+2610,Jill,Baker,Male,2005-03-04,Physics,2.96
+2611,Maria,Villanueva,Male,1991-12-23,Mathematics,3.35
+2612,Richard,Brown,Female,2000-12-24,Computer Science,3.29
+2613,Jimmy,Rodriguez,Female,1999-05-20,Biology,3.53
+2614,Dwayne,Frey,Female,1994-06-28,Biology,2.63
+2615,Robert,Martin,Male,1994-07-08,Physics,2.86
+2616,Spencer,Robertson,Female,1997-08-25,Computer Science,2.0
+2617,Tracy,Nash,Male,2000-08-28,Biology,2.73
+2618,Stephen,Cantrell,Male,1995-06-30,Mathematics,2.13
+2619,Gregory,Wiggins,Male,2001-06-01,Biology,2.1
+2620,Jennifer,Hawkins,Female,1995-09-29,Physics,2.75
+2621,Sarah,Crawford,Male,1993-03-20,Biology,3.52
+2622,Robin,Carrillo,Female,1992-09-09,Physics,3.19
+2623,Oscar,Crawford,Female,1996-04-03,Computer Science,3.17
+2624,Shannon,Gonzalez,Female,2001-11-17,Computer Science,3.51
+2625,Ryan,Adams,Female,1992-07-12,Physics,3.65
+2626,Valerie,Lyons,Male,1992-12-30,Biology,2.85
+2627,Samantha,Clements,Male,2005-06-17,Biology,3.48
+2628,Charlotte,Simmons,Male,1994-04-13,Physics,3.15
+2629,Jose,Compton,Male,2004-01-21,Computer Science,3.42
+2630,Audrey,Dalton,Female,1990-02-13,Mathematics,3.21
+2631,Jennifer,Rodriguez,Male,1991-05-02,Mathematics,4.0
+2632,Jill,Horn,Male,2003-11-25,Computer Science,3.65
+2633,John,Thornton,Female,2005-08-10,Mathematics,3.19
+2634,Cory,Marquez,Male,2003-08-01,Physics,3.28
+2635,John,Gaines,Female,2005-01-06,Biology,3.25
+2636,Dylan,Lopez,Female,1998-07-06,Physics,2.05
+2637,Lisa,Gonzalez,Male,1997-02-02,Mathematics,2.47
+2638,Cameron,Hanson,Female,2001-06-18,Computer Science,2.83
+2639,Christopher,Simmons,Male,2003-09-18,Physics,4.0
+2640,Sandra,Bailey,Male,1990-10-02,Physics,3.4
+2641,Jennifer,Rogers,Female,2003-10-20,Biology,2.92
+2642,Karen,Blevins,Female,2000-04-19,Mathematics,3.59
+2643,Megan,Wheeler,Female,1992-07-20,Biology,4.0
+2644,Gary,Bennett,Female,1999-07-26,Computer Science,3.66
+2645,Corey,Morgan,Male,1995-09-16,Mathematics,3.52
+2646,Joshua,Williams,Male,2001-12-25,Computer Science,2.74
+2647,April,Turner,Male,1998-11-07,Biology,2.32
+2648,Christopher,Stein,Female,2005-01-28,Computer Science,2.51
+2649,Michael,Garcia,Female,2005-09-07,Biology,3.01
+2650,Jesse,Barker,Female,2000-07-23,Biology,3.41
+2651,Benjamin,Robbins,Female,1999-09-28,Computer Science,2.3
+2652,Matthew,Mccann,Female,1995-12-24,Biology,2.28
+2653,Patrick,White,Male,1993-08-23,Computer Science,2.66
+2654,Kyle,Duran,Female,1991-07-31,Mathematics,2.0
+2655,Steven,Bell,Male,2005-10-29,Physics,3.08
+2656,Debra,Turner,Male,2003-03-09,Computer Science,2.04
+2657,Robert,White,Male,2003-08-10,Biology,2.78
+2658,Christian,Stewart,Female,1999-04-06,Mathematics,2.45
+2659,Jane,Cole,Male,1994-02-17,Computer Science,3.33
+2660,Matthew,Acevedo,Female,1999-05-01,Physics,2.28
+2661,John,Ramsey,Female,1998-04-15,Computer Science,2.16
+2662,Steven,Watson,Female,1998-03-01,Biology,2.56
+2663,Ryan,Rodriguez,Female,1994-01-06,Computer Science,2.89
+2664,Melanie,Reed,Female,1995-01-24,Computer Science,3.66
+2665,Christie,Byrd,Male,1999-03-02,Physics,2.45
+2666,Richard,Bullock,Male,1991-11-26,Physics,4.0
+2667,Bobby,Harvey,Female,1998-07-06,Mathematics,3.06
+2668,Andre,Wells,Female,2005-01-17,Biology,3.65
+2669,Tristan,Lawrence,Female,1993-12-30,Computer Science,2.76
+2670,Daniel,Miller,Female,1991-02-20,Biology,3.47
+2671,Michael,Wagner,Female,1990-05-21,Mathematics,3.13
+2672,Jonathan,Hale,Female,2002-01-18,Computer Science,3.22
+2673,Elizabeth,Huffman,Female,1994-12-29,Biology,3.15
+2674,Robert,Bailey,Male,2000-08-15,Biology,2.0
+2675,Carlos,Doyle,Male,2001-11-08,Biology,2.77
+2676,James,Young,Male,1995-07-05,Biology,2.77
+2677,Charles,Smith,Male,1991-04-29,Computer Science,2.77
+2678,Autumn,Atkinson,Male,2004-10-28,Biology,2.03
+2679,Laura,Lopez,Female,2001-12-18,Physics,3.83
+2680,Amanda,White,Male,1998-09-24,Mathematics,2.44
+2681,Benjamin,James,Female,1993-03-21,Biology,2.79
+2682,Wanda,Jones,Female,1994-06-06,Biology,2.36
+2683,Katherine,Rivers,Female,2000-10-31,Computer Science,2.16
+2684,William,Combs,Male,1991-09-04,Physics,4.0
+2685,Jamie,Taylor,Male,1997-12-14,Biology,2.47
+2686,Paul,Winters,Female,2001-10-08,Biology,3.71
+2687,Wesley,Rodriguez,Male,2003-01-10,Biology,3.23
+2688,Mark,Sanchez,Female,1998-08-14,Physics,3.71
+2689,Maria,Barrera,Male,2001-03-08,Mathematics,2.61
+2690,Lindsey,Lane,Male,1996-12-30,Mathematics,3.66
+2691,Samantha,Arellano,Female,1997-02-08,Physics,3.3
+2692,Amanda,Moore,Female,1994-11-14,Mathematics,2.14
+2693,Danny,Wilson,Female,1997-11-16,Physics,4.0
+2694,Alicia,Johnson,Female,1992-09-19,Physics,2.95
+2695,Brian,Maldonado,Female,2005-04-27,Computer Science,2.58
+2696,Katherine,Smith,Female,1995-02-13,Biology,3.09
+2697,Shelia,Harvey,Male,2005-01-02,Computer Science,3.01
+2698,Sandra,Campbell,Male,1995-02-07,Physics,2.96
+2699,Maria,Williams,Male,1994-10-13,Biology,2.0
+2700,Maria,Ruiz,Female,1993-08-05,Mathematics,2.12
+2701,Nicholas,White,Male,1998-04-11,Physics,3.9
+2702,Colin,Smith,Female,1990-05-08,Computer Science,2.75
+2703,Jermaine,Barker,Female,1991-05-01,Computer Science,2.0
+2704,Felicia,Hernandez,Female,1991-01-29,Physics,2.29
+2705,Joseph,Aguilar,Male,1998-11-02,Mathematics,2.46
+2706,Dana,Greer,Female,2002-03-23,Mathematics,3.64
+2707,Teresa,Miller,Female,1999-02-15,Physics,3.26
+2708,Katrina,Herrera,Male,2003-10-18,Computer Science,3.1
+2709,Paul,Torres,Female,2003-04-10,Physics,3.35
+2710,Angel,Brewer,Female,1998-12-24,Computer Science,2.31
+2711,Danielle,Reyes,Male,1998-07-28,Biology,3.89
+2712,Cheryl,Graham,Female,2004-11-24,Physics,4.0
+2713,Amber,Browning,Female,2004-11-03,Biology,3.29
+2714,Julie,Gutierrez,Male,2001-03-01,Mathematics,2.07
+2715,Ryan,Wilson,Male,1993-06-30,Mathematics,2.51
+2716,Sarah,Griffin,Female,1993-02-23,Computer Science,3.01
+2717,Lauren,Barry,Female,1990-03-23,Computer Science,2.98
+2718,Joshua,Guzman,Female,2002-04-10,Computer Science,3.58
+2719,Taylor,Hunter,Female,2001-05-26,Mathematics,3.51
+2720,Laura,Ellis,Male,2004-01-07,Physics,3.14
+2721,Casey,Morales,Male,1998-12-17,Biology,3.66
+2722,Robert,Berry,Male,1992-04-06,Mathematics,2.56
+2723,Lisa,Smith,Male,1992-06-20,Computer Science,2.23
+2724,Kimberly,Fritz,Female,1998-11-11,Biology,2.59
+2725,Paula,Wright,Male,1990-05-06,Biology,2.97
+2726,Hayley,Evans,Female,1997-04-12,Biology,4.0
+2727,Bobby,Adams,Female,2000-01-21,Biology,3.2
+2728,David,Wood,Female,1991-12-23,Mathematics,2.93
+2729,Brittany,Morgan,Male,1991-12-12,Computer Science,2.15
+2730,Paula,Smith,Male,1996-11-10,Biology,3.04
+2731,Peter,Riley,Male,2002-08-16,Mathematics,2.28
+2732,Timothy,Alexander,Female,1996-01-31,Computer Science,2.53
+2733,Elizabeth,Wyatt,Female,1995-04-09,Physics,2.68
+2734,Lisa,Davis,Female,1997-10-20,Mathematics,3.44
+2735,John,Gonzalez,Female,1991-08-22,Mathematics,3.07
+2736,Raymond,Long,Male,2001-05-22,Physics,3.03
+2737,Rebecca,Lin,Male,2001-12-31,Physics,3.71
+2738,Melissa,Griffin,Male,2005-06-20,Physics,2.0
+2739,Renee,Maldonado,Male,2004-05-31,Physics,2.1
+2740,Stephanie,Harris,Female,1995-01-30,Computer Science,2.43
+2741,Steven,Hall,Female,1993-11-29,Physics,3.98
+2742,Jill,Walker,Female,2002-05-23,Mathematics,2.32
+2743,Johnny,Hanson,Female,1993-11-19,Mathematics,3.13
+2744,Sara,Kelly,Male,1995-08-23,Physics,3.83
+2745,Ashley,Ruiz,Female,1999-11-29,Physics,2.24
+2746,Gabriel,Watkins,Male,1990-03-05,Computer Science,2.94
+2747,Sarah,Alvarado,Female,1999-07-18,Mathematics,3.56
+2748,Jerry,Santiago,Male,1995-09-07,Computer Science,3.08
+2749,Tiffany,Collins,Male,2005-05-08,Biology,2.92
+2750,Jennifer,King,Female,1995-03-03,Mathematics,3.82
+2751,Christopher,Myers,Female,1991-06-30,Computer Science,2.01
+2752,Katherine,Monroe,Female,1995-09-06,Biology,3.32
+2753,Monica,Castaneda,Male,2000-01-25,Mathematics,3.18
+2754,Amanda,Nelson,Male,1998-02-19,Computer Science,3.58
+2755,Candice,Krause,Male,1992-09-13,Mathematics,2.81
+2756,Brenda,Maddox,Male,1990-06-22,Physics,3.33
+2757,Paul,Huang,Male,2002-12-05,Mathematics,2.31
+2758,Kimberly,Waters,Male,1998-10-19,Computer Science,2.74
+2759,Kathryn,Vasquez,Male,2001-01-09,Physics,3.18
+2760,Deanna,Huber,Male,1995-10-21,Mathematics,2.78
+2761,Tara,Orr,Male,1992-07-05,Computer Science,2.54
+2762,Bonnie,Blake,Female,1991-04-25,Physics,2.79
+2763,Eric,Carpenter,Female,1998-12-23,Computer Science,3.8
+2764,Nicholas,Snyder,Male,2003-11-13,Biology,3.21
+2765,Jessica,Powell,Male,1999-08-04,Biology,3.63
+2766,Jose,Johnson,Female,1995-07-14,Biology,3.15
+2767,Rebecca,Marshall,Female,1996-09-15,Biology,2.76
+2768,Kathryn,Ellison,Female,1996-04-22,Mathematics,3.01
+2769,Joseph,Morales,Female,1998-09-24,Biology,2.81
+2770,Alexander,Daniel,Female,1991-08-12,Physics,2.83
+2771,Amy,Ballard,Male,2003-11-10,Mathematics,2.5
+2772,Laura,Butler,Female,1992-05-18,Biology,2.44
+2773,Annette,Sanders,Female,1997-12-18,Mathematics,2.0
+2774,Kenneth,Richardson,Male,1993-06-10,Biology,2.44
+2775,Rachel,Sims,Male,1998-04-25,Mathematics,2.0
+2776,Mario,Perez,Female,1996-07-26,Physics,2.96
+2777,Troy,White,Male,1996-12-27,Physics,2.85
+2778,Christina,Johnston,Male,1990-08-11,Biology,3.12
+2779,Courtney,Olsen,Female,2005-07-05,Biology,2.7
+2780,Victoria,Smith,Female,2002-01-18,Computer Science,3.06
+2781,Steven,Sanchez,Female,2001-09-01,Biology,2.57
+2782,Lee,Watson,Female,1995-04-16,Physics,3.01
+2783,Christopher,Hatfield,Female,2001-01-30,Biology,2.51
+2784,Alicia,Garcia,Male,1990-11-11,Biology,3.27
+2785,Randy,Garcia,Male,2005-11-14,Mathematics,2.76
+2786,Kellie,Fleming,Female,2000-10-16,Mathematics,2.74
+2787,Lauren,Davis,Female,2002-07-20,Mathematics,2.42
+2788,Justin,Phillips,Male,2003-07-06,Biology,3.22
+2789,Christopher,Jimenez,Female,1995-02-16,Biology,2.0
+2790,Shawn,Lopez,Male,1992-05-11,Physics,2.78
+2791,Colin,Christensen,Male,2000-11-20,Mathematics,2.82
+2792,Ronald,Durham,Female,2000-11-17,Mathematics,2.28
+2793,Destiny,Williams,Male,1992-07-16,Physics,3.32
+2794,Marie,Bender,Male,1997-08-26,Biology,2.03
+2795,John,Sweeney,Female,2003-07-21,Computer Science,3.45
+2796,Francis,Mckay,Female,2002-01-01,Mathematics,3.39
+2797,Heather,Cohen,Female,1998-12-27,Physics,3.66
+2798,Alexandra,Leonard,Female,1991-03-30,Mathematics,2.55
+2799,Kimberly,Morgan,Male,1991-08-01,Physics,3.43
+2800,Mariah,Harris,Female,1992-02-26,Computer Science,4.0
+2801,Jill,Freeman,Female,1999-11-15,Physics,3.1
+2802,Diana,Boyd,Female,2001-06-09,Computer Science,3.46
+2803,Bryan,Miller,Female,1997-01-05,Mathematics,3.49
+2804,William,Garrett,Male,1990-04-26,Biology,2.0
+2805,Edward,Johnson,Male,2000-02-04,Physics,2.21
+2806,Kenneth,Poole,Male,1999-02-12,Computer Science,3.59
+2807,Angela,Johnson,Male,2004-04-09,Mathematics,2.17
+2808,Joseph,Hart,Male,2002-07-18,Computer Science,3.12
+2809,Elizabeth,Barnes,Male,2003-08-21,Computer Science,2.67
+2810,Stephanie,Kim,Female,2000-06-30,Physics,3.75
+2811,Laurie,Johnson,Male,1996-02-14,Biology,2.72
+2812,Susan,Hendricks,Female,2003-05-10,Physics,3.33
+2813,Stephanie,Morgan,Female,1990-02-06,Computer Science,4.0
+2814,Phillip,Smith,Female,2002-10-19,Biology,2.73
+2815,William,Brooks,Female,1994-03-30,Biology,2.93
+2816,Brandy,Bradley,Male,1990-02-08,Physics,3.7
+2817,Ryan,Brown,Female,1991-11-20,Computer Science,2.73
+2818,Benjamin,Jackson,Female,2003-11-06,Mathematics,3.77
+2819,Elizabeth,Ponce,Female,1995-01-06,Physics,2.76
+2820,Brenda,Bailey,Male,1993-01-22,Biology,3.61
+2821,Jose,Davis,Male,2002-02-21,Mathematics,3.09
+2822,Susan,Myers,Male,2002-10-23,Computer Science,3.05
+2823,Jennifer,Pearson,Female,1995-11-25,Physics,2.36
+2824,Ebony,Chen,Female,1992-11-02,Physics,2.91
+2825,Brent,Rivas,Female,2004-01-23,Mathematics,3.99
+2826,Charles,Holmes,Female,1999-09-03,Physics,2.57
+2827,Gabriel,Jacobs,Female,1995-11-26,Computer Science,3.45
+2828,Cody,Lee,Female,1997-09-05,Mathematics,3.54
+2829,Donna,Edwards,Male,2002-03-29,Computer Science,3.28
+2830,Gerald,Raymond,Male,1990-03-12,Biology,3.6
+2831,Paula,Sanders,Male,1993-08-31,Biology,2.43
+2832,Charles,Blair,Male,1993-03-25,Mathematics,3.49
+2833,Jimmy,Peters,Male,2002-02-01,Physics,2.92
+2834,Lauren,Martinez,Female,1993-10-24,Mathematics,3.21
+2835,Priscilla,Johnson,Male,1991-10-06,Computer Science,2.13
+2836,Daniel,Kent,Male,1999-12-11,Biology,3.29
+2837,Rebecca,Nichols,Male,1995-03-05,Physics,2.96
+2838,Gary,Nguyen,Male,1992-03-13,Biology,2.0
+2839,Veronica,Palmer,Male,2001-04-19,Physics,3.63
+2840,Matthew,Hall,Male,1991-07-23,Biology,3.51
+2841,Lori,Jimenez,Female,2002-08-02,Computer Science,2.0
+2842,Kristie,Henderson,Female,1997-09-01,Biology,2.85
+2843,Jessica,Kerr,Female,1996-09-14,Biology,3.35
+2844,Tamara,Moon,Female,1997-03-16,Biology,2.38
+2845,Tiffany,Diaz,Male,1997-11-05,Physics,2.08
+2846,Vanessa,Chapman,Female,1998-12-02,Biology,3.47
+2847,Alan,Peterson,Male,1992-08-23,Mathematics,3.95
+2848,Seth,Myers,Male,2005-09-03,Mathematics,2.46
+2849,Joshua,Lewis,Female,2001-07-22,Computer Science,2.0
+2850,Joseph,Bennett,Male,2004-01-20,Biology,2.19
+2851,Theresa,Clark,Female,1996-01-06,Computer Science,2.0
+2852,Rachel,Phillips,Male,1997-08-09,Biology,3.21
+2853,Connie,Hicks,Female,1992-11-11,Mathematics,2.48
+2854,Anthony,Evans,Male,2005-04-13,Physics,2.47
+2855,Christina,Tucker,Female,2005-11-23,Computer Science,3.01
+2856,Elizabeth,Hester,Female,1993-01-03,Physics,2.55
+2857,Victor,Keith,Male,1996-06-16,Computer Science,3.23
+2858,Daniel,Walton,Male,2002-07-15,Biology,3.61
+2859,Christopher,Wright,Male,1994-12-10,Mathematics,2.95
+2860,Nicole,Morales,Male,1998-07-29,Biology,3.57
+2861,Pamela,Sherman,Female,2003-02-02,Physics,2.56
+2862,Tracy,Guerrero,Male,1996-06-09,Biology,3.18
+2863,Melissa,Harrell,Female,1991-07-19,Mathematics,3.17
+2864,Leslie,Braun,Female,2004-12-31,Computer Science,3.12
+2865,Joseph,Sanders,Male,2000-09-19,Computer Science,2.97
+2866,Jacob,Pope,Male,1998-01-16,Mathematics,3.14
+2867,Jeffrey,James,Female,2000-04-27,Physics,3.83
+2868,Tiffany,Hughes,Female,2001-05-26,Computer Science,3.33
+2869,Amanda,Smith,Female,1994-05-16,Biology,2.37
+2870,Chad,Johnson,Female,2005-02-16,Computer Science,2.0
+2871,Christian,Lee,Female,2005-11-01,Mathematics,2.93
+2872,Gabriel,Riddle,Male,1999-12-06,Mathematics,2.38
+2873,Peter,Davidson,Male,2000-10-07,Mathematics,2.95
+2874,Christian,Perez,Male,2003-11-19,Physics,3.26
+2875,Jonathan,Gonzalez,Female,2002-07-18,Computer Science,2.41
+2876,Douglas,Bailey,Male,1998-05-05,Computer Science,2.04
+2877,Thomas,Cortez,Male,2000-11-16,Mathematics,2.27
+2878,Tracey,Larson,Female,2004-05-17,Physics,3.24
+2879,Kevin,Bishop,Female,1997-12-19,Biology,2.06
+2880,Mary,Owens,Female,1998-11-11,Physics,3.28
+2881,Jennifer,Garcia,Male,1992-02-28,Physics,2.91
+2882,Mark,Garcia,Male,1993-01-24,Biology,2.97
+2883,Rebecca,Green,Female,1995-07-15,Computer Science,2.54
+2884,Carol,Strickland,Female,1996-05-30,Mathematics,3.46
+2885,Paula,Salazar,Female,1990-05-27,Physics,3.4
+2886,Matthew,Rose,Female,1997-01-17,Computer Science,2.8
+2887,Christine,Weiss,Male,1990-06-10,Mathematics,2.6
+2888,Lori,Cross,Female,2000-04-03,Mathematics,2.87
+2889,Jeffrey,Bennett,Female,1993-03-18,Computer Science,2.69
+2890,Joseph,Henry,Female,2005-07-21,Mathematics,3.22
+2891,Angel,Glass,Male,1993-10-18,Computer Science,3.14
+2892,Kevin,Jones,Male,2003-02-07,Computer Science,3.19
+2893,Darin,Garcia,Male,1991-09-09,Physics,2.12
+2894,Gregory,Griffith,Male,2005-04-30,Mathematics,2.85
+2895,Alyssa,Davenport,Male,1998-11-02,Computer Science,3.3
+2896,Michelle,Carlson,Female,1997-06-02,Physics,3.04
+2897,Justin,Castaneda,Female,2000-05-17,Physics,2.61
+2898,Erica,White,Female,1992-05-17,Physics,2.46
+2899,Victoria,Marshall,Female,1997-09-28,Biology,2.75
+2900,William,Edwards,Female,2005-12-15,Physics,2.79
+2901,Sarah,Whitaker,Male,2003-09-24,Biology,2.9
+2902,Jessica,Chavez,Male,2001-11-08,Computer Science,3.02
+2903,Jacqueline,Smith,Female,1997-12-08,Biology,2.39
+2904,Randall,Miller,Female,2004-02-26,Physics,3.74
+2905,Robert,Moore,Male,1990-10-22,Physics,2.34
+2906,Michael,Garcia,Male,1994-08-30,Mathematics,3.15
+2907,Crystal,Washington,Male,1990-05-07,Biology,2.06
+2908,Brenda,French,Female,1995-02-02,Mathematics,3.21
+2909,William,Shelton,Female,1996-07-26,Computer Science,2.43
+2910,Henry,Wang,Male,1997-04-20,Biology,2.75
+2911,Phillip,Hawkins,Female,1997-02-10,Physics,2.47
+2912,Adam,Robbins,Male,2004-05-14,Biology,3.31
+2913,Dawn,Adams,Female,1998-05-24,Computer Science,3.6
+2914,Shannon,Simmons,Female,1997-02-13,Biology,2.0
+2915,Lindsey,Harrison,Female,1999-10-04,Computer Science,2.34
+2916,Michele,West,Female,2003-03-04,Mathematics,3.03
+2917,Erik,Kennedy,Female,2001-08-09,Computer Science,2.56
+2918,Keith,Payne,Female,2005-10-03,Biology,3.26
+2919,Corey,Romero,Female,2002-06-12,Mathematics,3.46
+2920,Anthony,Rogers,Male,1999-10-01,Mathematics,3.34
+2921,Bethany,May,Female,2005-04-02,Computer Science,2.76
+2922,Alexander,Bryan,Female,2003-07-11,Mathematics,2.0
+2923,April,Daugherty,Female,1998-08-26,Physics,3.53
+2924,Sarah,Simmons,Male,1990-11-23,Mathematics,2.86
+2925,Chad,Goodwin,Female,1993-03-11,Biology,2.87
+2926,Christian,Lee,Male,1993-06-13,Physics,3.37
+2927,Sharon,Mitchell,Female,1996-03-30,Biology,3.05
+2928,Brittany,Gross,Female,1995-06-03,Physics,3.22
+2929,Diana,Evans,Male,2001-07-13,Mathematics,2.32
+2930,Bryan,Sanchez,Female,1998-10-06,Computer Science,2.5
+2931,David,Blankenship,Male,1990-12-11,Biology,3.14
+2932,Laura,Flores,Female,2005-03-17,Computer Science,3.62
+2933,Megan,Maxwell,Male,2001-12-14,Biology,3.81
+2934,Danielle,Ward,Female,1997-12-28,Physics,3.12
+2935,Troy,Lawson,Male,1997-07-05,Physics,3.83
+2936,Rachel,Cooper,Female,1998-07-25,Physics,3.16
+2937,Douglas,Lopez,Female,1992-12-31,Biology,3.15
+2938,Brittany,Murphy,Male,2004-01-04,Biology,2.54
+2939,Ann,Welch,Female,1990-08-01,Biology,2.45
+2940,Julia,Jones,Male,1997-02-15,Mathematics,2.62
+2941,Christopher,Anderson,Female,1992-11-01,Mathematics,3.38
+2942,Ellen,Williams,Female,1993-06-15,Mathematics,2.08
+2943,Luis,Erickson,Male,1999-06-29,Physics,2.58
+2944,Benjamin,Espinoza,Female,1997-12-22,Mathematics,3.81
+2945,Autumn,White,Female,1999-07-29,Biology,3.65
+2946,Scott,Martin,Female,1999-04-23,Mathematics,3.2
+2947,Benjamin,Ortiz,Female,1992-12-27,Mathematics,2.12
+2948,Willie,Gutierrez,Male,2004-02-04,Computer Science,2.2
+2949,Walter,Francis,Male,1993-06-10,Physics,3.76
+2950,Kelly,Wood,Female,1996-12-17,Computer Science,3.04
+2951,Kelly,Rodriguez,Female,1994-07-11,Computer Science,3.51
+2952,Angelica,Lopez,Male,1998-05-03,Computer Science,3.42
+2953,Matthew,Rodriguez,Male,1991-04-07,Biology,2.21
+2954,Ronald,Rodriguez,Female,1990-02-26,Physics,3.29
+2955,Mary,Obrien,Female,2001-09-08,Biology,2.47
+2956,Chad,Bell,Female,1995-09-09,Physics,3.01
+2957,Katherine,Washington,Male,1996-06-30,Mathematics,3.31
+2958,David,Wilson,Male,1997-05-20,Mathematics,2.65
+2959,Ryan,Hendricks,Female,2005-04-28,Mathematics,3.5
+2960,Erica,Williams,Female,1999-05-13,Mathematics,3.4
+2961,Jacob,Dean,Female,1991-10-09,Biology,3.33
+2962,Michael,Chavez,Male,1992-01-13,Physics,2.24
+2963,Brian,Ellis,Male,2002-05-04,Biology,2.75
+2964,John,Simpson,Female,2005-05-31,Biology,2.84
+2965,Garrett,Whitehead,Female,1992-06-25,Mathematics,3.0
+2966,Jeffery,Clark,Female,1998-05-06,Physics,2.91
+2967,Daniel,Johnson,Female,1999-01-08,Biology,2.41
+2968,Cesar,Montoya,Male,2005-08-24,Computer Science,2.88
+2969,Sherry,Sutton,Female,2000-11-23,Physics,3.72
+2970,Thomas,Foster,Female,1997-11-01,Biology,3.24
+2971,Nancy,Rasmussen,Female,2000-11-15,Physics,3.56
+2972,Melissa,Knight,Female,1993-12-28,Biology,2.0
+2973,Donna,Thompson,Female,2000-03-08,Computer Science,3.09
+2974,Michelle,Guzman,Female,1997-02-27,Mathematics,2.58
+2975,Marc,Mora,Female,2005-06-19,Biology,3.16
+2976,Gabriel,Casey,Male,1995-08-17,Biology,3.45
+2977,Melissa,Johnson,Male,1992-02-27,Computer Science,2.65
+2978,Robert,Scott,Female,1999-09-17,Physics,3.71
+2979,Brian,Garza,Male,1994-02-04,Physics,3.58
+2980,Bruce,White,Female,2002-12-07,Physics,3.6
+2981,Manuel,Brown,Female,2000-12-13,Computer Science,3.15
+2982,Kristin,King,Male,1993-04-14,Mathematics,2.98
+2983,Kyle,Montes,Female,1993-06-08,Computer Science,2.97
+2984,Valerie,Berg,Female,1999-06-16,Mathematics,3.11
+2985,Bryce,Campbell,Male,1992-11-13,Mathematics,2.5
+2986,Haley,Hutchinson,Female,1994-06-07,Mathematics,3.18
+2987,Michaela,Martin,Male,1991-06-05,Mathematics,3.53
+2988,Eugene,Lawson,Female,1993-11-26,Biology,3.25
+2989,Bradley,Caldwell,Female,1997-04-16,Biology,2.75
+2990,Amanda,Moore,Female,1994-10-05,Mathematics,3.46
+2991,Ana,Saunders,Male,1996-04-17,Mathematics,3.12
+2992,Stacy,Hernandez,Male,1991-11-11,Mathematics,3.01
+2993,Kimberly,Ibarra,Male,1995-03-26,Biology,2.72
+2994,Stephanie,Galvan,Female,1998-02-02,Computer Science,4.0
+2995,Diana,Ray,Female,1995-11-24,Mathematics,3.6
+2996,Brandy,Wade,Male,2005-08-28,Biology,3.46
+2997,Lisa,Gonzalez,Female,1992-01-26,Computer Science,2.02
+2998,Brenda,Howell,Female,1997-01-03,Biology,2.72
+2999,Briana,Bailey,Male,2002-01-04,Physics,3.72
+3000,Tricia,Calhoun,Male,1997-09-01,Biology,2.9
