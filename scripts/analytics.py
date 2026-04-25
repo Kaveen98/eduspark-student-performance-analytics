@@ -231,3 +231,161 @@ def main():
     )
 
    
+    # -----------------------------
+    # 4. High-performing students
+    # -----------------------------
+    high_performing_students = (
+        student_performance_summary
+        .filter(F.col("overall_average_score") >= args.high_threshold)
+        .orderBy(F.desc("overall_average_score"), F.desc("overall_attendance_percentage"))
+    )
+
+    # -----------------------------
+    # 5. Low-performing students
+    # -----------------------------
+    low_performing_students = (
+        student_performance_summary
+        .filter(F.col("overall_average_score") < args.low_threshold)
+        .orderBy(F.asc("overall_average_score"), F.asc("overall_attendance_percentage"))
+    )
+
+    # -----------------------------
+    # 6. Students at academic risk
+    # -----------------------------
+    at_risk_students = (
+        student_performance_summary
+        .withColumn("risk_low_score", F.col("overall_average_score") < args.low_threshold)
+        .withColumn("risk_low_attendance", F.col("overall_attendance_percentage") < args.attendance_risk_threshold)
+        .withColumn("risk_failed_courses", F.col("failed_courses") >= 2)
+        .withColumn(
+            "risk_reasons",
+            F.concat_ws(
+                "; ",
+                F.when(F.col("risk_low_score"), F.lit("Low average score")).otherwise(F.lit(None)),
+                F.when(F.col("risk_low_attendance"), F.lit("Low attendance")).otherwise(F.lit(None)),
+                F.when(F.col("risk_failed_courses"), F.lit("Multiple failed courses")).otherwise(F.lit(None)),
+            )
+        )
+        .filter(
+            F.col("risk_low_score") |
+            F.col("risk_low_attendance") |
+            F.col("risk_failed_courses")
+        )
+        .orderBy(
+            F.asc("overall_average_score"),
+            F.asc("overall_attendance_percentage"),
+            F.desc("failed_courses")
+        )
+    )
+
+    # -----------------------------
+    # 7. Optional extra outputs
+    # -----------------------------
+    subject_pass_fail_summary = (
+        master_df
+        .filter(F.col("average_score").isNotNull())
+        .groupBy("course_id", "course_name", "department")
+        .agg(
+            F.count("*").alias("total_student_course_records"),
+            F.sum(F.when(F.col("average_score") >= args.fail_threshold, 1).otherwise(0)).alias("pass_count"),
+            F.sum(F.when(F.col("average_score") < args.fail_threshold, 1).otherwise(0)).alias("fail_count")
+        )
+        .withColumn(
+            "pass_rate_percentage",
+            F.round((F.col("pass_count") / F.col("total_student_course_records")) * 100, 2)
+        )
+        .withColumn(
+            "fail_rate_percentage",
+            F.round((F.col("fail_count") / F.col("total_student_course_records")) * 100, 2)
+        )
+        .orderBy(F.desc("fail_rate_percentage"))
+    )
+
+    department_performance_summary = (
+        master_df
+        .filter(F.col("average_score").isNotNull())
+        .groupBy("department")
+        .agg(
+            F.round(F.avg("average_score"), 2).alias("department_average_score"),
+            F.round(F.avg("attendance_percentage"), 2).alias("department_average_attendance"),
+            F.countDistinct("student_id").alias("student_count")
+        )
+        .orderBy(F.desc("department_average_score"))
+    )
+
+    top_10_students = (
+        student_performance_summary
+        .filter(F.col("overall_average_score").isNotNull())
+        .orderBy(F.desc("overall_average_score"), F.desc("overall_attendance_percentage"))
+        .limit(10)
+    )
+
+    bottom_10_students = (
+        student_performance_summary
+        .filter(F.col("overall_average_score").isNotNull())
+        .orderBy(F.asc("overall_average_score"), F.asc("overall_attendance_percentage"))
+        .limit(10)
+    )
+
+    analytics_overview_rows = [
+        {"metric": "total_students", "value": students_df.count()},
+        {"metric": "total_courses", "value": courses_df.count()},
+        {"metric": "total_enrollments", "value": enrollments_df.count()},
+        {"metric": "total_grade_summary_records", "value": grade_summary_df.count()},
+        {"metric": "total_attendance_summary_records", "value": attendance_summary_df.count()},
+        {"metric": "high_performing_students", "value": high_performing_students.count()},
+        {"metric": "low_performing_students", "value": low_performing_students.count()},
+        {"metric": "at_risk_students", "value": at_risk_students.count()},
+    ]
+
+    # -----------------------------
+    # Print quick summaries
+    # -----------------------------
+    print("\nMain analytics output counts")
+    print("average_marks_by_subject    :", average_marks_by_subject.count())
+    print("average_marks_by_semester   :", average_marks_by_semester.count())
+    print("high_performing_students    :", high_performing_students.count())
+    print("low_performing_students     :", low_performing_students.count())
+    print("at_risk_students            :", at_risk_students.count())
+    print("subject_pass_fail_summary   :", subject_pass_fail_summary.count())
+    print("department_performance      :", department_performance_summary.count())
+
+    print("\nTop 5 subjects by average mark")
+    average_marks_by_subject.show(5, truncate=False)
+
+    print("\nAverage marks by semester")
+    average_marks_by_semester.show(10, truncate=False)
+
+    print("\nTop 10 students")
+    top_10_students.show(truncate=False)
+
+    print("\nBottom 10 students")
+    bottom_10_students.show(truncate=False)
+
+    print("\nAt-risk students sample")
+    at_risk_students.show(10, truncate=False)
+
+    # -----------------------------
+    # Save outputs as CSV
+    # -----------------------------
+    write_csv(average_marks_by_subject, str(output_dir / "average_marks_by_subject_csv"))
+    write_csv(average_marks_by_semester, str(output_dir / "average_marks_by_semester_csv"))
+    write_csv(high_performing_students, str(output_dir / "high_performing_students_csv"))
+    write_csv(low_performing_students, str(output_dir / "low_performing_students_csv"))
+    write_csv(at_risk_students, str(output_dir / "at_risk_students_csv"))
+    write_csv(subject_pass_fail_summary, str(output_dir / "subject_pass_fail_summary_csv"))
+    write_csv(department_performance_summary, str(output_dir / "department_performance_summary_csv"))
+    write_csv(top_10_students, str(output_dir / "top_10_students_csv"))
+    write_csv(bottom_10_students, str(output_dir / "bottom_10_students_csv"))
+    write_small_csv_with_pandas(
+        analytics_overview_rows,
+        str(output_dir / "analytics_overview.csv")
+    )
+
+    print(f"\nAnalytics outputs saved to: {output_dir}")
+
+    spark.stop()
+
+
+if __name__ == "__main__":
+    main()
