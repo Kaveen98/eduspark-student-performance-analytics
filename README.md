@@ -224,11 +224,3 @@ The at-risk population in the current final run is driven almost entirely by att
 - The local workflow assumes Windows-compatible Java and Hadoop utility setup.
 - Spark outputs are written as folders containing part files, which is normal for Spark.
 
-## Submission Notes
-
-For the cleanest submission package:
-
-- include the source files, notebook, and any existing docs
-- regenerate outputs if the lecturer expects a fresh run demonstration
-- keep the default analytics thresholds unchanged
-- use the notebook only after the analytics outputs exist
