@@ -29,6 +29,7 @@ Thumbs.db
 spark-warehouse/
 metastore_db/
 derby.log
+*.crc
 
 # Generated data that can be recreated
 data/raw/
@@ -36,12 +37,21 @@ data/raw_expanded/
 data/processed/
 data/cleaned/
 
-# Generated outputs and local archives
-outputs/
-*.crc
+# Parquet artifacts are not used in the CSV-only submission workflow
+*.parquet
+*_parquet/
+data/cleaned/*_parquet/
+outputs/analytics/*_parquet/
+
+# Local archives
 *.rar
 
 # Keep folder structure if needed
 !data/raw_expanded/.gitkeep
 !data/cleaned/.gitkeep
 !outputs/.gitkeep
+
+# Spark marker files
+_SUCCESS
+**/_SUCCESS
+

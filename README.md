@@ -4,12 +4,13 @@ EduSpark is a DS403.3 Big Data Programming coursework project for **Use Case 1: 
 
 1. starts from a small tracked base dataset,
 2. generates a larger synthetic raw dataset,
-3. preprocesses it into cleaned Parquet tables, and
+3. preprocesses it into cleaned CSV folders, and
 4. produces analytics outputs and notebook-ready visuals for reporting and viva discussion.
 
 ## Project Overview
 
 The project models a student performance analytics workflow for academic decision-making. It uses PySpark DataFrames to clean, aggregate, and analyze student grades and attendance data at a scale that is much larger than the original reference dataset.
+The current workflow is 5-file and CSV-only. It treats `enrollments.csv` as the academic backbone table, with `students.csv` and `courses.csv` as master/reference data and `grades.csv` plus `attendance.csv` as event data.
 
 The main analytics outputs are:
 
@@ -33,18 +34,12 @@ The submission thresholds used in the final analytics are:
 |-- data/
 |   |-- base/                      # tracked reference CSV files
 |   |-- raw_expanded/              # generated raw CSV files (gitignored)
-|   `-- cleaned/                   # generated cleaned parquet files (gitignored)
-|-- docs/
-|   |-- dataset_plan.md
-|   |-- generation_rules.md
-|   |-- project_plan.md
-|   |-- results_evaluation.md
-|   |-- submission_readiness_check.md
-|   `-- team_roles.md
+|   `-- cleaned/                   # generated cleaned CSV folders
+|-- docs/                         # optional documentation folder when notes are present
 |-- notebooks/
 |   `-- eduspark_results_analysis.ipynb
 |-- outputs/
-|   `-- analytics/                 # generated CSV/parquet analytics outputs (gitignored)
+|   `-- analytics/                 # generated CSV analytics folders and overview file
 |-- scripts/
 |   |-- generate_data.py
 |   |-- preprocess.py
@@ -76,7 +71,15 @@ The intended run order is:
 
 The workflow transforms the data as follows:
 
-`data/base/*.csv -> data/raw_expanded/*.csv -> data/cleaned/* -> outputs/analytics/* -> notebook visuals`
+`data/base/*.csv -> data/raw_expanded/*.csv -> data/cleaned/*_csv -> outputs/analytics/*_csv -> notebook visuals`
+
+The tracked base dataset and generated raw dataset now include all 5 CSV files:
+
+- `students.csv`
+- `courses.csv`
+- `enrollments.csv`
+- `grades.csv`
+- `attendance.csv`
 
 ## Windows Setup
 
@@ -127,11 +130,13 @@ Use the commands below from the repository root.
   --base-dir data\base `
   --output-dir data\raw_expanded `
   --students 10000 `
-  --courses 100 `
+  --courses 150 `
   --seed 42
 ```
 
-### 2. Preprocess the raw dataset into cleaned parquet files
+This step now writes `data/raw_expanded/enrollments.csv` alongside the other raw files. The current final successful run reflected in the repository outputs used `10,000` students and `150` courses.
+
+### 2. Preprocess the raw dataset into cleaned CSV folders
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\preprocess.py `
@@ -139,6 +144,8 @@ Use the commands below from the repository root.
   --output-dir data\cleaned `
   --hadoop-home C:\hadoop
 ```
+
+This step writes cleaned CSV folders under `data/cleaned/`, including `students_csv`, `courses_csv`, `enrollments_csv`, `grades_csv`, `attendance_csv`, `grade_summary_csv`, `attendance_summary_csv`, and `student_performance_master_csv`.
 
 ### 3. Run the analytics pipeline
 
@@ -150,6 +157,19 @@ Use the commands below from the repository root.
 ```
 
 The analytics script defaults to the coursework thresholds listed earlier. Those defaults should be kept for the final submission.
+
+The final analytics CSV outputs are written under `outputs/analytics/`:
+
+- `average_marks_by_subject_csv/`
+- `average_marks_by_semester_csv/`
+- `high_performing_students_csv/`
+- `low_performing_students_csv/`
+- `at_risk_students_csv/`
+- `subject_pass_fail_summary_csv/`
+- `department_performance_summary_csv/`
+- `top_10_students_csv/`
+- `bottom_10_students_csv/`
+- `analytics_overview.csv`
 
 ## Notebook Purpose
 
@@ -168,29 +188,33 @@ Run the notebook **after** the analytics script has completed.
 The checked local outputs in `outputs/analytics/` currently report:
 
 - total students: `10,000`
-- total courses: `100`
-- total grade summary records: `239,602`
-- total attendance summary records: `239,685`
-- high-performing students: `2,467`
-- low-performing students: `4`
-- at-risk students: `1,381`
+- total courses: `150`
+- total enrollments: `240,927`
+- total grade summary records: `240,843`
+- total attendance summary records: `240,927`
+- high-performing students: `2,521`
+- low-performing students: `1`
+- at-risk students: `6,256`
+- subject summaries: `150`
+- semester summaries: `8`
 
-The semester-level averages are stable across all eight periods from 2022 Semester 1 to 2025 Semester 2, ranging from `80.15` to `80.26`.
+The semester-level averages are stable across all eight periods from 2022 Semester 1 to 2025 Semester 2, ranging from `80.30` to `80.39`.
 
 The highest subject averages in the current outputs include:
 
-- `COURSE98` - Computer Science Course 98: `80.70`
-- `COURSE89` - Computer Science Course 89: `80.67`
-- `COURSE56` - Mathematics Course 56: `80.62`
-- `COURSE72` - Mathematics Course 72: `80.60`
-- `COURSE62` - Computer Science Course 62: `80.54`
+- `COURSE91` - Open-source Zero-defect Paradigm: `81.01`
+- `COURSE2` - Course 2: `81.00`
+- `COURSE120` - Inverse Web-enabled Infrastructure: `80.78`
+- `COURSE20` - Course 20: `80.74`
+- `COURSE124` - Fundamental Empowering Hierarchy: `80.73`
+
+The at-risk population in the current final run is driven almost entirely by attendance. The checked `at_risk_students` output contains `6,255` students flagged for `Low attendance` only, and `1` student flagged for both low score and low attendance.
 
 ## Reproducibility Notes
 
-- The generated raw data, cleaned parquet files, and analytics outputs are intentionally gitignored because they can be recreated from the scripts.
+- The generated raw data and cleaned CSV folders can be recreated from the scripts.
 - The default seed in `generate_data.py` is `42`, which helps keep the synthetic data generation reproducible.
 - The notebook expects the output folder structure produced by `scripts/analytics.py`.
-- Supporting notes for lecturers and viva review are available in [docs/results_evaluation.md](docs/results_evaluation.md) and [docs/submission_readiness_check.md](docs/submission_readiness_check.md).
 
 ## Limitations
 
@@ -204,8 +228,7 @@ The highest subject averages in the current outputs include:
 
 For the cleanest submission package:
 
-- include the source files, docs, and notebook
+- include the source files, notebook, and any existing docs
 - regenerate outputs if the lecturer expects a fresh run demonstration
 - keep the default analytics thresholds unchanged
 - use the notebook only after the analytics outputs exist
-- review [docs/submission_readiness_check.md](docs/submission_readiness_check.md) before final packaging

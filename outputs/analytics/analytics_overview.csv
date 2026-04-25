@@ -1,0 +1,9 @@
+metric,value
+total_students,10000
+total_courses,150
+total_enrollments,240927
+total_grade_summary_records,240843
+total_attendance_summary_records,240927
+high_performing_students,2521
+low_performing_students,1
+at_risk_students,6256

@@ -56,6 +56,21 @@ def build_spark(app_name: str, hadoop_home: str | None = None) -> SparkSession:
     return spark
 
 
+def read_csv(spark: SparkSession, input_path: Path):
+    return (
+        spark.read
+        .option("header", True)
+        .csv(str(input_path))
+    )
+
+
+def cast_columns(df, casts: dict[str, str]):
+    for column_name, data_type in casts.items():
+        if column_name in df.columns:
+            df = df.withColumn(column_name, F.col(column_name).cast(data_type))
+    return df
+
+
 def write_csv(df, output_path: str):
     (
         df.coalesce(1)
@@ -66,14 +81,6 @@ def write_csv(df, output_path: str):
     )
 
 
-def write_parquet(df, output_path: str):
-    (
-        df.write
-        .mode("overwrite")
-        .parquet(output_path)
-    )
-
-
 def write_small_csv_with_pandas(rows, output_file: str):
     output_path = Path(output_file)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -81,8 +88,8 @@ def write_small_csv_with_pandas(rows, output_file: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run EduSpark analytics on cleaned parquet data")
-    parser.add_argument("--input-dir", default="data/cleaned", help="Path to cleaned parquet directory")
+    parser = argparse.ArgumentParser(description="Run EduSpark analytics on cleaned CSV data")
+    parser.add_argument("--input-dir", default="data/cleaned", help="Path to cleaned CSV directory")
     parser.add_argument("--output-dir", default="outputs/analytics", help="Path to save analytics outputs")
     parser.add_argument(
         "--hadoop-home",
@@ -100,16 +107,71 @@ def main():
     input_dir = Path(args.input_dir)
     output_dir = Path(args.output_dir)
 
-    master_df = spark.read.parquet(str(input_dir / "student_performance_master"))
-    students_df = spark.read.parquet(str(input_dir / "students"))
-    courses_df = spark.read.parquet(str(input_dir / "courses"))
-    grade_summary_df = spark.read.parquet(str(input_dir / "grade_summary"))
-    attendance_summary_df = spark.read.parquet(str(input_dir / "attendance_summary"))
+    master_df = cast_columns(
+        read_csv(spark, input_dir / "student_performance_master_csv"),
+        {
+            "student_id": "long",
+            "enrollment_id": "long",
+            "semester": "int",
+            "year": "int",
+            "average_score": "double",
+            "assessment_count": "long",
+            "attendance_percentage": "double",
+            "class_count": "long",
+            "date_of_birth": "date",
+            "gpa": "double",
+            "credits": "int",
+        },
+    )
+    students_df = cast_columns(
+        read_csv(spark, input_dir / "students_csv"),
+        {
+            "student_id": "long",
+            "date_of_birth": "date",
+            "gpa": "double",
+        },
+    )
+    courses_df = cast_columns(
+        read_csv(spark, input_dir / "courses_csv"),
+        {
+            "credits": "int",
+        },
+    )
+    enrollments_df = cast_columns(
+        read_csv(spark, input_dir / "enrollments_csv"),
+        {
+            "enrollment_id": "long",
+            "student_id": "long",
+            "semester": "int",
+            "year": "int",
+        },
+    )
+    grade_summary_df = cast_columns(
+        read_csv(spark, input_dir / "grade_summary_csv"),
+        {
+            "student_id": "long",
+            "year": "int",
+            "semester": "int",
+            "average_score": "double",
+            "assessment_count": "long",
+        },
+    )
+    attendance_summary_df = cast_columns(
+        read_csv(spark, input_dir / "attendance_summary_csv"),
+        {
+            "student_id": "long",
+            "year": "int",
+            "semester": "int",
+            "attendance_percentage": "double",
+            "class_count": "long",
+        },
+    )
 
     print("\nLoaded cleaned datasets")
     print("student_performance_master:", master_df.count())
     print("students                 :", students_df.count())
     print("courses                  :", courses_df.count())
+    print("enrollments              :", enrollments_df.count())
     print("grade_summary            :", grade_summary_df.count())
     print("attendance_summary       :", attendance_summary_df.count())
 
@@ -267,6 +329,7 @@ def main():
     analytics_overview_rows = [
         {"metric": "total_students", "value": students_df.count()},
         {"metric": "total_courses", "value": courses_df.count()},
+        {"metric": "total_enrollments", "value": enrollments_df.count()},
         {"metric": "total_grade_summary_records", "value": grade_summary_df.count()},
         {"metric": "total_attendance_summary_records", "value": attendance_summary_df.count()},
         {"metric": "high_performing_students", "value": high_performing_students.count()},
@@ -317,19 +380,6 @@ def main():
         analytics_overview_rows,
         str(output_dir / "analytics_overview.csv")
     )
-
-    # -----------------------------
-    # Save outputs as Parquet
-    # -----------------------------
-    write_parquet(average_marks_by_subject, str(output_dir / "average_marks_by_subject_parquet"))
-    write_parquet(average_marks_by_semester, str(output_dir / "average_marks_by_semester_parquet"))
-    write_parquet(high_performing_students, str(output_dir / "high_performing_students_parquet"))
-    write_parquet(low_performing_students, str(output_dir / "low_performing_students_parquet"))
-    write_parquet(at_risk_students, str(output_dir / "at_risk_students_parquet"))
-    write_parquet(subject_pass_fail_summary, str(output_dir / "subject_pass_fail_summary_parquet"))
-    write_parquet(department_performance_summary, str(output_dir / "department_performance_summary_parquet"))
-    write_parquet(top_10_students, str(output_dir / "top_10_students_parquet"))
-    write_parquet(bottom_10_students, str(output_dir / "bottom_10_students_parquet"))
 
     print(f"\nAnalytics outputs saved to: {output_dir}")
 
